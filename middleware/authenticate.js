@@ -2,23 +2,35 @@ const jwt = require("jsonwebtoken");
 const userModel = require('../models/user_model')
 const logger = require('../logger')
 
-const authenticate = async (req) => {
+const authenticate = async (req,res,next) => {
     try {
         let user;
         const token = req.get("token");
-        if (token) {
-            user = jwt.verify(token, process.env.SECRET_KEY);
-            if(!user){
-                return null;
-            }
-            user = await userModel.findOne({email: user.email});
-            return user;
+        if (!token) {
+            logger.error(`Status Code: ${400} - User not identified. - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+            return res.status(400).json({
+                status: false,
+                msg: 'User not identified',
+            });
         }
-        logger.error(`Status Code: ${400} - Token not provided - ${req.originalUrl} - ${req.method} - ${req.ip}`);
-        return null;
+
+        user = jwt.verify(token, process.env.SECRET_KEY);
+        user = await userModel.findOne({email: user.email});
+        if(!user){
+            logger.error(`Status Code: ${400} - User not identified. - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+            return res.status(400).json({
+                status: false,
+                msg: 'User not identified',
+            });
+        }
+        req.user = user;
+        next();
     } catch (error) {
-        logger.error(`Status Code: ${error.status || 500} - Some internal error occured - ${error.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
-        return null;
+        logger.error(`Status Code: ${500} - User not identified. - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+        res.status(500).json({
+            status: false,
+            msg: 'User not identified',
+        });
     }
 };
 

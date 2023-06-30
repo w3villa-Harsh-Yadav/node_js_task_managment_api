@@ -3,13 +3,15 @@ const express = require('express');
 const app = express();
 
 const connectDb = require('./db/db');
-const routes = require('./routes/routes')
+const user_routes = require('./routes/user_routes');
+const task_routes = require('./routes/task_routes');
 
-const PORT = 3000 || process.env.PORT
+const PORT = 3000 || process.env.PORT;
 
 app.use(express.json());
 
-app.use('/api/v1',routes);
+app.use('/api/v1',user_routes);
+app.use('/api/v1',task_routes);
 
 app.use('*',(req,res)=>{
     res.status(404).json({

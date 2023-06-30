@@ -242,3 +242,15 @@ error:Jun-30-2023 17:54:29: Status Code: 400 - User could not be deleted - /api/
 error:Jun-30-2023 17:54:29: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
 error:Jun-30-2023 17:56:01: Status Code: 400 - User not identified. - /api/v1/delete - DELETE - ::ffff:127.0.0.1
 error:Jun-30-2023 17:57:33: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 19:18:20: Status Code: 400 - User not identified. - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 19:20:26: Status Code: 400 - User not identified. - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 19:20:54: Status Code: 400 - User not identified. - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 19:21:01: Status Code: 400 - User not identified. - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 19:21:58: Status Code: 400 - User not identified. - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 19:22:26: Status Code: 400 - User not identified. - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 19:26:43: Status Code: 400 - User not identified. - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 19:26:44: Status Code: 400 - User not identified. - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 19:26:46: Status Code: 400 - User not identified. - /api/v1/update - PUT - ::ffff:127.0.0.1
+error:Jun-30-2023 19:26:47: Status Code: 400 - User not identified. - /api/v1/update - PUT - ::ffff:127.0.0.1
+error:Jun-30-2023 19:26:48: Status Code: 400 - User not identified. - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 19:28:01: Status Code: 400 - User not identified. - /api/v1/delete - DELETE - ::ffff:127.0.0.1

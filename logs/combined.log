@@ -1777,3 +1777,26 @@ info:Jun-30-2023 18:01:01: Status Code: 200 - Logged In successfully - /api/v1/l
 info:Jun-30-2023 18:01:13: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
 info:Jun-30-2023 18:01:22: Status Code: 200 - User updated successfully - /api/v1/update - PUT - ::ffff:127.0.0.1
 info:Jun-30-2023 18:01:37: Status Code: 200 - User deleted successfully - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 19:17:51: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 19:17:58: Status Code: 200 - Logged In successfully - /api/v1/login - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 19:18:20: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 19:20:26: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 19:20:54: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 19:21:01: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 19:21:58: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 19:22:23: Status Code: 200 - Logged In successfully - /api/v1/login - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 19:22:26: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 19:24:40: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 19:24:43: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 19:24:48: Status Code: 200 - User updated successfully - /api/v1/update - PUT - ::ffff:127.0.0.1
+info:Jun-30-2023 19:25:09: Status Code: 200 - User deleted successfully - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 19:25:13: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 19:25:22: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 19:25:23: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 19:25:24: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 19:26:43: Status Code: 400 - User not identified. - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 19:26:44: Status Code: 400 - User not identified. - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 19:26:46: Status Code: 400 - User not identified. - /api/v1/update - PUT - ::ffff:127.0.0.1
+error:Jun-30-2023 19:26:47: Status Code: 400 - User not identified. - /api/v1/update - PUT - ::ffff:127.0.0.1
+error:Jun-30-2023 19:26:48: Status Code: 400 - User not identified. - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 19:28:01: Status Code: 400 - User not identified. - /api/v1/delete - DELETE - ::ffff:127.0.0.1

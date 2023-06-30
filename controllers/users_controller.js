@@ -217,18 +217,8 @@ const updatepassword = async(req,res) => {
 const getUser = async(req,res) => {
     try {
 
-        let user = await authenticate(req);
-
-        if(!user){
-            logger.error(`Status Code: ${400} - User not identified. - ${req.originalUrl} - ${req.method} - ${req.ip}`);
-            return res.status(400).json({
-                status: false,
-                msg: 'User not identified',
-            });
-        }
-
+        let user = req.user;
         logger.info(`Status Code: ${200} - Found User - ${req.originalUrl} - ${req.method} - ${req.ip}`);
-
         return res.json({
             status:true,
             user:user
@@ -246,37 +236,27 @@ const getUser = async(req,res) => {
 
 const updateUser = async(req,res) => {
     try {
-
         let { email, name, phonenumber } = req.body;
 
-        if(!email || !name || !phonenumber){
-            logger.error(`Status Code: ${400} - Please provide all the details. - ${req.originalUrl} - ${req.method} - ${req.ip}`);
-            return res.status(400).json({
-                status:false,
-                msg:'Please provide all the details'
-            });
-        }
+        // if(!email || !name || !phonenumber){
+        //     logger.error(`Status Code: ${400} - Please provide all the details. - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+        //     return res.status(400).json({
+        //         status:false,
+        //         msg:'Please provide all the details'
+        //     });
+        // }
 
-        let user = await authenticate(req);
-
-        if(user == null){
-            logger.error(`Status Code: ${400} - User not identified. - ${req.originalUrl} - ${req.method} - ${req.ip}`);
-            return res.status(400).json({
-                status: false,
-                msg: 'User not identified',
-            });
-        }
 
         const temp_user = {
             email:email,
             name:name,
             phonenumber:phonenumber
         }
+        let user = req.user;
 
         user = await userModel.findOneAndUpdate({email: user.email}, temp_user ,{new: true})
 
         if(!user){
-            console.log(user)
             logger.error(`Status Code: ${400} - Could not update user - ${req.originalUrl} - ${req.method} - ${req.ip}`);
             return res.status(400).json({
                 status: false,
@@ -285,9 +265,7 @@ const updateUser = async(req,res) => {
         }
 
         const token = jwt.sign({name:user.name,email:user.email},process.env.SECRET_KEY);
-
         logger.info(`Status Code: ${200} - User updated successfully - ${req.originalUrl} - ${req.method} - ${req.ip}`);
-
         return res.json({
             status:true,
             msg: 'User updated succesfully',
@@ -307,19 +285,7 @@ const updateUser = async(req,res) => {
 
 const deleteUser = async(req,res) => {
     try {
-
-        let user = await authenticate(req);
-
-        if(user == null){
-            logger.error(`Status Code: ${400} - User not identified. - ${req.originalUrl} - ${req.method} - ${req.ip}`);
-            return res.status(400).json({
-                status: false,
-                msg: 'User not identified',
-            });
-        }
-
-        console.log(user.email);
-
+        let user = req.user;
         let deleted_user = await userModel.findOneAndDelete({ email:user.email });
 
         if(!deleted_user){
@@ -345,7 +311,6 @@ const deleteUser = async(req,res) => {
         });
         logger.error(`Status Code: ${error.status || 500} - ${res.statusMessage} - ${error.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
     }
-
 }
 
 
