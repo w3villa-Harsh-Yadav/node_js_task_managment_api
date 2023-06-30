@@ -1,0 +1,244 @@
+error:Jun-29-2023 14:09:52: Status Code: 400 - Please provide all the details. - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-29-2023 14:10:01: Status Code: 500 - Internal Server Error - secretOrPrivateKey must have a value - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-29-2023 14:12:06: Status Code: 500 - Internal Server Error - User validation failed: password: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "password" - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-29-2023 14:12:36: Status Code: 500 - Internal Server Error - User validation failed: password: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "password" - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-29-2023 14:15:25: Status Code: 500 - Internal Server Error - User validation failed: password: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "password" - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-29-2023 14:15:34: Status Code: 500 - Internal Server Error - User validation failed: password: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "password" - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-29-2023 14:15:35: Status Code: 500 - Internal Server Error - User validation failed: password: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "password" - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-29-2023 14:15:42: Status Code: 500 - Internal Server Error - User validation failed: password: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "password" - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-29-2023 14:16:24: Status Code: 500 - Internal Server Error - User validation failed: password: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "password" - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-29-2023 14:21:16: Status Code: 409 - User already exist - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-29-2023 15:56:04: Status Code: 500 - Internal Server Error - hash_password is not defined - /api/v1/login - POST - ::ffff:127.0.0.1
+error:Jun-29-2023 15:56:12: Status Code: 409 - User already exist - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-29-2023 15:56:16: Status Code: 500 - Internal Server Error - hash_password is not defined - /api/v1/login - POST - ::ffff:127.0.0.1
+error:Jun-29-2023 15:56:49: Status Code: 500 - Internal Server Error - hash_password is not defined - /api/v1/login - POST - ::ffff:127.0.0.1
+error:Jun-29-2023 16:10:52: Status Code: 500 - Internal Server Error - Cannot access 'hash_password' before initialization - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 00:16:14: Status Code: 409 - User does not exist - /api/v1/login - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 10:58:36: Status Code: 403 - Invalid credentials - /api/v1/login - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 11:03:06: Status Code: 403 - Invalid credentials - /api/v1/login - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 12:05:41: Status Code: 409 - User already exist - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 12:06:08: Status Code: 400 - Please provide all the details. - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 12:06:17: Status Code: 400 - Please provide all the details. - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 12:06:18: Status Code: 400 - Please provide all the details. - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 12:06:30: Status Code: 409 - User already exist - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 12:06:44: Status Code: 400 - Please provide all the details. - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 12:06:53: Status Code: 500 - Internal Server Error - data must be a string or Buffer and salt must either be a salt string or a number of rounds - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 12:07:13: Status Code: 409 - User already exist - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 12:07:16: Status Code: 500 - Internal Server Error - User validation failed: phonenumber: Path `phonenumber` (78200) is less than minimum allowed value (1000000000). - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 12:07:18: Status Code: 500 - Internal Server Error - User validation failed: phonenumber: Path `phonenumber` (78200) is less than minimum allowed value (1000000000). - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 12:07:43: Status Code: 500 - Internal Server Error - User validation failed: phonenumber: Path `phonenumber` (782005989) is less than minimum allowed value (1000000000). - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 12:08:23: Status Code: 409 - User does not exist - /api/v1/login - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 12:08:31: Status Code: 403 - Invalid credentials - /api/v1/login - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 12:08:55: Status Code: 409 - User already exist - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 12:09:23: Status Code: 400 - Please provide all the details. - /api/v1/login - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 12:10:14: Status Code: 500 - Internal Server Error - data and hash arguments required - /api/v1/updatepassword - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 12:10:25: Status Code: 500 - Internal Server Error - logger is not defined - /api/v1/get - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 12:10:34: Status Code: 500 - Internal Server Error - logger is not defined - /api/v1/get - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 12:10:50: Status Code: 500 - Internal Server Error - logger is not defined - /api/v1/get - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 12:11:05: Status Code: 500 - Internal Server Error - logger is not defined - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 12:11:07: Status Code: 500 - Internal Server Error - logger is not defined - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 12:15:29: Status Code: 500 - Internal Server Error - logger is not defined - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 14:17:21: Status Code: 409 - User already exist - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 14:17:22: Status Code: 409 - User already exist - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 14:18:22: Status Code: 409 - User already exist - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 15:16:05: Status Code: 409 - User already exist - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 15:16:06: Status Code: 409 - User already exist - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 15:35:56: Status Code: 500 - Internal Server Error - error is not defined - /api/v1/updatepassword - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 15:36:40: Status Code: 400 - [object Object] - /api/v1/updatepassword - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:12:40: Status Code: 400 - [object Object] - /api/v1/login - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:13:04: Status Code: 400 - [object Object] - /api/v1/login - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:14:38: Status Code: 400 - [object Object] - /api/v1/update - PUT - ::ffff:127.0.0.1
+error:Jun-30-2023 16:15:46: Status Code: 400 - [object Object] - /api/v1/update - PUT - ::ffff:127.0.0.1
+error:Jun-30-2023 16:15:47: Status Code: 400 - [object Object] - /api/v1/update - PUT - ::ffff:127.0.0.1
+error:Jun-30-2023 16:19:13: Status Code: 400 - [object Object] - /api/v1/update - PUT - ::ffff:127.0.0.1
+error:Jun-30-2023 16:19:14: Status Code: 400 - [object Object] - /api/v1/update - PUT - ::ffff:127.0.0.1
+error:Jun-30-2023 16:24:22: Status Code: 400 - User not identified. - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 16:25:05: Status Code: 400 - User not identified. - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 16:25:07: Status Code: 400 - User not identified. - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 16:25:12: Status Code: 409 - User does not exist - /api/v1/login - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:25:13: Status Code: 409 - User does not exist - /api/v1/login - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:25:35: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:25:36: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:25:43: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:25:44: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:25:57: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:26:03: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:26:04: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:26:50: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:26:52: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:27:03: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:27:15: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:27:16: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:27:17: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:31:27: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:31:28: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:31:28: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:31:28: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:31:29: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:31:29: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:31:29: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:31:29: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:32:58: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:33:27: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:33:28: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:33:39: Status Code: 400 - [object Object],[object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:34:03: Status Code: 400 - [object Object],[object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:34:04: Status Code: 400 - [object Object],[object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:34:12: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:34:42: Status Code: 409 - User already exist - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:34:44: Status Code: 409 - User already exist - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:37:44: Status Code: 400 - [object Object] - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 16:37:45: Status Code: 400 - [object Object] - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 16:37:56: Status Code: 400 - [object Object] - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 16:38:06: Status Code: 500 - Internal Server Error - res is not defined - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 16:38:07: Status Code: 500 - Internal Server Error - res is not defined - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 16:38:08: Status Code: 500 - Internal Server Error - res is not defined - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 16:38:09: Status Code: 500 - Internal Server Error - res is not defined - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 16:38:21: Status Code: 500 - Internal Server Error - res is not defined - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 16:38:44: Status Code: 500 - Internal Server Error - res is not defined - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 16:40:30: Status Code: 500 - Some internal error occured - invalid token - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 16:40:30: Status Code: 400 - User not identified. - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 16:40:57: Status Code: 400 - [object Object] - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 16:41:07: Status Code: 400 - [object Object] - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 16:41:31: Status Code: 400 - [object Object] - /api/v1/update - PUT - ::ffff:127.0.0.1
+error:Jun-30-2023 16:48:25: Status Code: 400 - [object Object] - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 16:50:13: Status Code: 400 - User not identified. - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 17:01:03: Status Code: 400 - Could not update user - /api/v1/update - PUT - ::ffff:127.0.0.1
+error:Jun-30-2023 17:01:47: Status Code: 400 - User not identified. - /api/v1/update - PUT - ::ffff:127.0.0.1
+error:Jun-30-2023 17:01:49: Status Code: 400 - User not identified. - /api/v1/update - PUT - ::ffff:127.0.0.1
+error:Jun-30-2023 17:16:42: Status Code: 400 - User not identified. - /api/v1/update - PUT - ::ffff:127.0.0.1
+error:Jun-30-2023 17:16:43: Status Code: 400 - User not identified. - /api/v1/update - PUT - ::ffff:127.0.0.1
+error:Jun-30-2023 17:16:47: Status Code: 409 - User does not exist - /api/v1/login - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 17:16:51: Status Code: 409 - User does not exist - /api/v1/login - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 17:19:37: Status Code: 409 - User already exist - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 17:19:41: Status Code: 409 - User does not exist - /api/v1/login - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 17:19:44: Status Code: 409 - User does not exist - /api/v1/login - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 17:25:05: Status Code: 400 - Could not update user - /api/v1/update - PUT - ::ffff:127.0.0.1
+error:Jun-30-2023 17:25:44: Status Code: 400 - User not identified. - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:26:13: Status Code: 400 - User not identified. - /api/v1/update - PUT - ::ffff:127.0.0.1
+error:Jun-30-2023 17:32:01: Status Code: 500 - Internal Server Error - userModel.findByOneAndDelete is not a function - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:32:02: Status Code: 500 - Internal Server Error - userModel.findByOneAndDelete is not a function - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:32:07: Status Code: 400 - Could not update user - /api/v1/update - PUT - ::ffff:127.0.0.1
+error:Jun-30-2023 17:33:44: Status Code: 400 - Could not update user - /api/v1/update - PUT - ::ffff:127.0.0.1
+error:Jun-30-2023 17:38:54: Status Code: 400 - User not identified. - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:39:02: Status Code: 400 - User not identified. - /api/v1/update - PUT - ::ffff:127.0.0.1
+error:Jun-30-2023 17:39:10: Status Code: 500 - Internal Server Error - userModel.findByOneAndDelete is not a function - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:39:19: Status Code: 500 - Internal Server Error - userModel.findByOneAndDelete is not a function - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:39:59: Status Code: 400 - User not identified. - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 17:40:14: Status Code: 400 - User not identified. - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 17:40:15: Status Code: 400 - User not identified. - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 17:46:15: Status Code: 409 - User already exist - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 17:46:16: Status Code: 409 - User already exist - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 17:46:22: Status Code: 400 - User not identified. - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 17:46:55: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:46:58: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:47:04: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:47:05: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:47:06: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:48:34: Status Code: 409 - User already exist - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 17:49:14: Status Code: 400 - User not identified. - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 17:49:15: Status Code: 400 - User not identified. - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 17:49:25: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:49:26: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:49:32: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:49:33: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:49:34: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:49:35: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:49:35: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:49:35: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:49:35: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:49:35: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:49:36: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:49:36: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:49:36: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:49:45: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:50:07: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:50:08: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:50:09: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:50:10: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:50:10: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:50:10: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:50:11: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:50:11: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:50:11: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:50:11: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:50:11: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:50:12: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:51:00: Status Code: 400 - User not identified. - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:51:01: Status Code: 400 - User not identified. - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:51:02: Status Code: 400 - User not identified. - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:51:34: Status Code: 409 - User does not exist - /api/v1/login - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 17:51:45: Status Code: 400 - User not identified. - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 17:51:46: Status Code: 400 - User not identified. - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 17:53:38: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:53:59: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:10: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:13: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:14: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:15: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:15: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:16: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:16: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:17: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:17: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:17: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:18: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:18: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:18: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:18: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:18: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:19: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:19: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:19: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:19: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:19: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:20: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:20: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:20: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:20: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:20: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:21: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:21: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:21: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:21: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:21: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:21: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:22: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:22: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:22: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:22: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:23: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:23: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:23: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:23: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:23: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:24: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:24: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:24: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:24: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:24: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:25: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:25: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:25: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:25: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:25: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:26: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:26: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:26: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:26: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:26: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:27: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:27: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:27: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:27: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:27: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:28: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:28: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:28: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:28: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:28: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:28: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:29: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:54:29: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:56:01: Status Code: 400 - User not identified. - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 17:57:33: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1

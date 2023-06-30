@@ -1,0 +1,201 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Node_Task_Management_Project_Api",
+    "dateExported": "2023-06-30T12:32:29.926Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "5fc2b02b-8ac9-426b-9ac6-958f3a2c5456",
+            "colId": "91b47fca-9cae-4fab-a72d-5cff198c76d1",
+            "containerId": "",
+            "name": "Register User",
+            "url": "http://127.0.0.1:3000/api/v1/register",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-06-29T07:14:32.097Z",
+            "modified": "2023-06-30T11:04:42.542Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"HarshYadav\",\n  \"email\": \"harsh.yada@w3villa.com\",\n  \"password\": \"Harsh@123\",\n  \"phonenumber\": \"7820059893\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "6b52cbc6-36cf-4d9e-9cbe-b589226d6c43",
+            "colId": "91b47fca-9cae-4fab-a72d-5cff198c76d1",
+            "containerId": "",
+            "name": "Login User",
+            "url": "http://127.0.0.1:3000/api/v1/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-06-29T07:14:41.114Z",
+            "modified": "2023-06-30T12:21:40.650Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"harsh.yada@w3villa.com\",\n  \"password\": \"Harsh@123\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "60b01f61-793c-41de-b756-ea6d8e97ac6a",
+            "colId": "91b47fca-9cae-4fab-a72d-5cff198c76d1",
+            "containerId": "",
+            "name": "Forgot Password",
+            "url": "http://127.0.0.1:3000/api/v1/forgotpassword",
+            "method": "POST",
+            "sortNum": 25000,
+            "created": "2023-06-29T07:15:54.955Z",
+            "modified": "2023-06-30T06:39:58.652Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\":\"h.yada@w3villa.com\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "c6f2e39b-5d83-414d-8230-86ad77e7ca15",
+            "colId": "91b47fca-9cae-4fab-a72d-5cff198c76d1",
+            "containerId": "",
+            "name": "Update Password",
+            "url": "http://127.0.0.1:3000/api/v1/updatepassword",
+            "method": "POST",
+            "sortNum": 26250,
+            "created": "2023-06-30T05:19:45.581Z",
+            "modified": "2023-06-30T09:58:21.645Z",
+            "headers": [
+                {
+                    "name": "otp",
+                    "value": "nJAaFvA",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\":\"harsh.yadav@w3villa.com\",\n  \"updated_password\":\"1234\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "34a5cb62-0472-44f6-b2fa-1edf22dc33d8",
+            "colId": "91b47fca-9cae-4fab-a72d-5cff198c76d1",
+            "containerId": "",
+            "name": "Get User",
+            "url": "http://127.0.0.1:3000/api/v1/getuser",
+            "method": "GET",
+            "sortNum": 27500,
+            "created": "2023-06-29T10:17:24.595Z",
+            "modified": "2023-06-30T12:31:13.787Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSGFyc2hZYWRhdiIsImVtYWlsIjoiaGFyc2gueWFkYUB3M3ZpbGxhLmNvbSIsImlhdCI6MTY4ODEyODI2MX0.dQyvD0V88CdrNNcLtR_m5ccumHKn6zSHZz58h0ZfMZY"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "5b17255e-6790-4fda-87a1-252127c0932f",
+            "colId": "91b47fca-9cae-4fab-a72d-5cff198c76d1",
+            "containerId": "",
+            "name": "Update User",
+            "url": "http://127.0.0.1:3000/api/v1/update",
+            "method": "PUT",
+            "sortNum": 28750,
+            "created": "2023-06-29T10:17:35.545Z",
+            "modified": "2023-06-30T12:31:22.191Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSGFyc2hZYWRhdiIsImVtYWlsIjoiaGFyc2gueWFkYUB3M3ZpbGxhLmNvbSIsImlhdCI6MTY4ODEyODI2MX0.dQyvD0V88CdrNNcLtR_m5ccumHKn6zSHZz58h0ZfMZY"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\": \"HarshYadav\",\n    \"email\": \"harshyadav@w3villa.com\",\n    \"phonenumber\": \"7820059893\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "e5816b34-df4a-4c05-834e-a8d2c10c52a1",
+            "colId": "91b47fca-9cae-4fab-a72d-5cff198c76d1",
+            "containerId": "",
+            "name": "DeleteUser",
+            "url": "http://127.0.0.1:3000/api/v1/delete",
+            "method": "DELETE",
+            "sortNum": 29375,
+            "created": "2023-06-29T10:17:45.772Z",
+            "modified": "2023-06-30T12:31:37.338Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSGFyc2hZYWRhdiIsImVtYWlsIjoiaGFyc2h5YWRhdkB3M3ZpbGxhLmNvbSIsImlhdCI6MTY4ODEyODI4Mn0.6hmuu75CILnqWzYwWeYskMy25Lmz6_ksD6g7aXBinVM"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "69f3c69a-ecc5-4597-b498-a03baa987c7e",
+            "colId": "91b47fca-9cae-4fab-a72d-5cff198c76d1",
+            "containerId": "",
+            "name": "Add a Task",
+            "url": "",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-06-29T07:15:04.573Z",
+            "modified": "2023-06-29T07:15:04.573Z",
+            "headers": []
+        },
+        {
+            "_id": "4c7e2e33-7477-4164-b6eb-9ac84ef4ccd7",
+            "colId": "91b47fca-9cae-4fab-a72d-5cff198c76d1",
+            "containerId": "",
+            "name": "Get a Task",
+            "url": "",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-06-29T07:15:13.587Z",
+            "modified": "2023-06-29T07:15:13.588Z",
+            "headers": []
+        },
+        {
+            "_id": "695ed4eb-04f5-436b-a11d-15b69dd2661a",
+            "colId": "91b47fca-9cae-4fab-a72d-5cff198c76d1",
+            "containerId": "",
+            "name": "Update a Task",
+            "url": "",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-06-29T07:15:24.527Z",
+            "modified": "2023-06-29T07:15:24.527Z",
+            "headers": []
+        },
+        {
+            "_id": "b789712b-b009-4a7c-84db-58fa9eb74125",
+            "colId": "91b47fca-9cae-4fab-a72d-5cff198c76d1",
+            "containerId": "",
+            "name": "Delete a Task",
+            "url": "",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2023-06-29T07:15:37.440Z",
+            "modified": "2023-06-29T07:15:37.441Z",
+            "headers": []
+        }
+    ]
+}

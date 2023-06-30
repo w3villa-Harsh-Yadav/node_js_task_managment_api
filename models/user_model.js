@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 const { Schema } = mongoose;
 
 const userSchema = new Schema({
-    username:{
+    name:{
         type:String,
         required:true
     },
@@ -14,6 +14,15 @@ const userSchema = new Schema({
     password:{
         type:String,
         required:true
+    },
+    phonenumber:{
+        type:Number,
+        min: 1000000000,
+        max: 9999999999,
+        required:true
+    },
+    otp:{
+        type:String,
     }
 })
 

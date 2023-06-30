@@ -1,0 +1,1779 @@
+error:Jun-29-2023 14:09:52: Status Code: 400 - Please provide all the details. - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-29-2023 14:10:01: Status Code: 500 - Internal Server Error - secretOrPrivateKey must have a value - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-29-2023 14:12:06: Status Code: 500 - Internal Server Error - User validation failed: password: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "password" - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-29-2023 14:12:36: Status Code: 500 - Internal Server Error - User validation failed: password: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "password" - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-29-2023 14:15:25: Status Code: 500 - Internal Server Error - User validation failed: password: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "password" - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-29-2023 14:15:34: Status Code: 500 - Internal Server Error - User validation failed: password: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "password" - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-29-2023 14:15:35: Status Code: 500 - Internal Server Error - User validation failed: password: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "password" - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-29-2023 14:15:42: Status Code: 500 - Internal Server Error - User validation failed: password: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "password" - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-29-2023 14:16:24: Status Code: 500 - Internal Server Error - User validation failed: password: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "password" - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-29-2023 14:16:42: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-29-2023 14:21:16: Status Code: 409 - User already exist - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-29-2023 15:35:07: Status Code: 200 - Logged In successfully - /api/v1/login - POST - ::ffff:127.0.0.1
+error:Jun-29-2023 15:56:04: Status Code: 500 - Internal Server Error - hash_password is not defined - /api/v1/login - POST - ::ffff:127.0.0.1
+error:Jun-29-2023 15:56:12: Status Code: 409 - User already exist - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-29-2023 15:56:16: Status Code: 500 - Internal Server Error - hash_password is not defined - /api/v1/login - POST - ::ffff:127.0.0.1
+error:Jun-29-2023 15:56:49: Status Code: 500 - Internal Server Error - hash_password is not defined - /api/v1/login - POST - ::ffff:127.0.0.1
+info:Jun-29-2023 15:57:00: Status Code: 200 - Logged In successfully - /api/v1/login - POST - ::ffff:127.0.0.1
+error:Jun-29-2023 16:10:52: Status Code: 500 - Internal Server Error - Cannot access 'hash_password' before initialization - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-29-2023 16:11:29: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-29-2023 16:11:41: Status Code: 200 - Logged In successfully - /api/v1/login - POST - ::ffff:127.0.0.1
+info:Jun-29-2023 16:12:41: Status Code: 200 - Logged In successfully - /api/v1/login - POST - ::ffff:127.0.0.1
+info:Jun-29-2023 16:12:44: Status Code: 200 - Logged In successfully - /api/v1/login - POST - ::ffff:127.0.0.1
+info:Jun-29-2023 16:13:16: Status Code: 200 - Logged In successfully - /api/v1/login - POST - ::ffff:127.0.0.1
+info:Jun-29-2023 16:20:25: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-29-2023 16:20:31: Status Code: 200 - Logged In successfully - /api/v1/login - POST - ::ffff:127.0.0.1
+info:Jun-29-2023 16:21:39: Status Code: 200 - Logged In successfully - /api/v1/login - POST - ::ffff:127.0.0.1
+info:Jun-29-2023 16:21:41: Status Code: 200 - Logged In successfully - /api/v1/login - POST - ::ffff:127.0.0.1
+info:Jun-29-2023 16:22:04: Status Code: 200 - Logged In successfully - /api/v1/login - POST - ::ffff:127.0.0.1
+info:Jun-29-2023 16:38:33: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-29-2023 16:38:38: Status Code: 200 - Logged In successfully - /api/v1/login - POST - ::ffff:127.0.0.1
+info:Jun-29-2023 16:39:27: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-29-2023 16:39:32: Status Code: 200 - Logged In successfully - /api/v1/login - POST - ::ffff:127.0.0.1
+info:Jun-29-2023 16:40:24: Status Code: 200 - Logged In successfully - /api/v1/login - POST - ::ffff:127.0.0.1
+info:Jun-29-2023 18:42:21: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-29-2023 18:42:28: Status Code: 200 - Logged In successfully - /api/v1/login - POST - ::ffff:127.0.0.1
+info:Jun-29-2023 18:45:28: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-29-2023 18:46:12: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 00:16:08: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 00:16:14: Status Code: 409 - User does not exist - /api/v1/login - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 00:16:27: Status Code: 200 - Logged In successfully - /api/v1/login - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 10:35:17: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 10:35:46: Status Code: 200 - Logged In successfully - /api/v1/login - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 10:53:31: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 10:54:19: Status Code: 200 - Logged In successfully - /api/v1/login - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 10:57:14: Status Code: 200 - Logged In successfully - /api/v1/login - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 10:58:36: Status Code: 403 - Invalid credentials - /api/v1/login - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 10:58:43: Status Code: 200 - Logged In successfully - /api/v1/login - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 11:03:06: Status Code: 403 - Invalid credentials - /api/v1/login - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 11:03:12: Status Code: 200 - Logged In successfully - /api/v1/login - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 12:05:39: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 12:05:41: Status Code: 409 - User already exist - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 12:05:59: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 12:06:08: Status Code: 400 - Please provide all the details. - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 12:06:17: Status Code: 400 - Please provide all the details. - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 12:06:18: Status Code: 400 - Please provide all the details. - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 12:06:22: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 12:06:30: Status Code: 409 - User already exist - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 12:06:44: Status Code: 400 - Please provide all the details. - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 12:06:53: Status Code: 500 - Internal Server Error - data must be a string or Buffer and salt must either be a salt string or a number of rounds - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 12:07:03: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 12:07:13: Status Code: 409 - User already exist - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 12:07:16: Status Code: 500 - Internal Server Error - User validation failed: phonenumber: Path `phonenumber` (78200) is less than minimum allowed value (1000000000). - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 12:07:18: Status Code: 500 - Internal Server Error - User validation failed: phonenumber: Path `phonenumber` (78200) is less than minimum allowed value (1000000000). - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 12:07:36: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 12:07:43: Status Code: 500 - Internal Server Error - User validation failed: phonenumber: Path `phonenumber` (782005989) is less than minimum allowed value (1000000000). - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 12:08:18: Status Code: 200 - Logged In successfully - /api/v1/login - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 12:08:23: Status Code: 409 - User does not exist - /api/v1/login - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 12:08:31: Status Code: 403 - Invalid credentials - /api/v1/login - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 12:08:37: Status Code: 200 - Logged In successfully - /api/v1/login - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 12:08:55: Status Code: 409 - User already exist - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 12:09:00: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 12:09:17: Status Code: 200 - Logged In successfully - /api/v1/login - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 12:09:23: Status Code: 400 - Please provide all the details. - /api/v1/login - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 12:09:58: Status Code: 200 - Mail sent to your mail address - /api/v1/forgotpassword - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 12:10:14: Status Code: 500 - Internal Server Error - data and hash arguments required - /api/v1/updatepassword - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 12:10:25: Status Code: 500 - Internal Server Error - logger is not defined - /api/v1/get - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 12:10:34: Status Code: 500 - Internal Server Error - logger is not defined - /api/v1/get - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 12:10:41: Status Code: 200 - Logged In successfully - /api/v1/login - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 12:10:50: Status Code: 500 - Internal Server Error - logger is not defined - /api/v1/get - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 12:11:05: Status Code: 500 - Internal Server Error - logger is not defined - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 12:11:07: Status Code: 500 - Internal Server Error - logger is not defined - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jun-30-2023 12:15:29: Status Code: 500 - Internal Server Error - logger is not defined - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 12:16:16: Not found in cache: Key:h.yada@w3villa.com$2b$10$hRKpl0OihrksKpcvoxb8zuTSo/H12b1ZIfgHBo3QKecFLYHADGPQ6
+info:Jun-30-2023 12:16:16: Status Code: 200 - User deleted successfully - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 14:17:19: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 14:17:21: Status Code: 409 - User already exist - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 14:17:22: Status Code: 409 - User already exist - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 14:18:22: Status Code: 409 - User already exist - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 14:19:19: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 15:16:05: Status Code: 409 - User already exist - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 15:16:06: Status Code: 409 - User already exist - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 15:17:27: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 15:35:56: Status Code: 500 - Internal Server Error - error is not defined - /api/v1/updatepassword - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 15:36:40: Status Code: 400 - [object Object] - /api/v1/updatepassword - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 16:12:35: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:12:40: Status Code: 400 - [object Object] - /api/v1/login - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:13:04: Status Code: 400 - [object Object] - /api/v1/login - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 16:13:30: Status Code: 200 - Logged In successfully - /api/v1/login - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 16:13:47: Not found in cache: Key:harsh.yada@w3villa.com$2b$10$154swXNt50WgrNiwe3utremSEePgfKYxEspLvIr8AuzDxQ7DNetXy
+info:Jun-30-2023 16:13:47: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 16:14:38: Status Code: 400 - [object Object] - /api/v1/update - PUT - ::ffff:127.0.0.1
+error:Jun-30-2023 16:15:46: Status Code: 400 - [object Object] - /api/v1/update - PUT - ::ffff:127.0.0.1
+error:Jun-30-2023 16:15:47: Status Code: 400 - [object Object] - /api/v1/update - PUT - ::ffff:127.0.0.1
+info:Jun-30-2023 16:18:25: Not found in cache: Key:harsh.yada@w3villa.com$2b$10$154swXNt50WgrNiwe3utremSEePgfKYxEspLvIr8AuzDxQ7DNetXy
+info:Jun-30-2023 16:18:25: Status Code: 200 - User updated successfully - /api/v1/update - PUT - ::ffff:127.0.0.1
+error:Jun-30-2023 16:19:13: Status Code: 400 - [object Object] - /api/v1/update - PUT - ::ffff:127.0.0.1
+error:Jun-30-2023 16:19:14: Status Code: 400 - [object Object] - /api/v1/update - PUT - ::ffff:127.0.0.1
+info:Jun-30-2023 16:24:15: Not found in cache: Key:harsh.yada@w3villa.com$2b$10$154swXNt50WgrNiwe3utremSEePgfKYxEspLvIr8AuzDxQ7DNetXy
+info:Jun-30-2023 16:24:15: Status Code: 200 - User updated successfully - /api/v1/update - PUT - ::ffff:127.0.0.1
+info:Jun-30-2023 16:24:22: Not found in cache: Key:h.yada@w3villa.com$2b$10$hRKpl0OihrksKpcvoxb8zuTSo/H12b1ZIfgHBo3QKecFLYHADGPQ6
+error:Jun-30-2023 16:24:22: Status Code: 400 - User not identified. - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 16:24:58: Serving from cache: Key:harsh.yada@w3villa.com$2b$10$154swXNt50WgrNiwe3utremSEePgfKYxEspLvIr8AuzDxQ7DNetXy - Pair{
+  _id: new ObjectId("649eb19b5303a2ff92d60bb0"),
+  name: 'Harsh Yadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$154swXNt50WgrNiwe3utremSEePgfKYxEspLvIr8AuzDxQ7DNetXy',
+  phonenumber: 7820059893,
+  __v: 0
+}
+info:Jun-30-2023 16:24:58: Status Code: 200 - User deleted successfully - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 16:25:05: Not found in cache: Key:harsh.yada@w3villa.com$2b$10$154swXNt50WgrNiwe3utremSEePgfKYxEspLvIr8AuzDxQ7DNetXy
+error:Jun-30-2023 16:25:05: Status Code: 400 - User not identified. - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 16:25:07: Not found in cache: Key:harsh.yada@w3villa.com$2b$10$154swXNt50WgrNiwe3utremSEePgfKYxEspLvIr8AuzDxQ7DNetXy
+error:Jun-30-2023 16:25:07: Status Code: 400 - User not identified. - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 16:25:12: Status Code: 409 - User does not exist - /api/v1/login - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:25:13: Status Code: 409 - User does not exist - /api/v1/login - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:25:35: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:25:36: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:25:43: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:25:44: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:25:57: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:26:03: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:26:04: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 16:26:10: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:26:50: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:26:52: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:27:03: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:27:15: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:27:16: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:27:17: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:31:27: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:31:28: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:31:28: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:31:28: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:31:29: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:31:29: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:31:29: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:31:29: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 16:31:38: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:32:58: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 16:33:08: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:33:27: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:33:28: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:33:39: Status Code: 400 - [object Object],[object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:34:03: Status Code: 400 - [object Object],[object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:34:04: Status Code: 400 - [object Object],[object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:34:12: Status Code: 400 - [object Object] - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:34:42: Status Code: 409 - User already exist - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:34:44: Status Code: 409 - User already exist - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 16:34:49: Status Code: 200 - Logged In successfully - /api/v1/login - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 16:34:53: Not found in cache: Key:harsh.yada@w3villa.com$2b$10$154swXNt50WgrNiwe3utremSEePgfKYxEspLvIr8AuzDxQ7DNetXy
+info:Jun-30-2023 16:34:53: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 16:37:25: Not found in cache: Key:harsh.yada@w3villa.com$2b$10$154swXNt50WgrNiwe3utremSEePgfKYxEspLvIr8AuzDxQ7DNetXy
+info:Jun-30-2023 16:37:25: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 16:37:44: Status Code: 400 - [object Object] - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 16:37:45: Status Code: 400 - [object Object] - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 16:37:56: Status Code: 400 - [object Object] - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 16:38:06: Status Code: 500 - Internal Server Error - res is not defined - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 16:38:07: Status Code: 500 - Internal Server Error - res is not defined - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 16:38:08: Status Code: 500 - Internal Server Error - res is not defined - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 16:38:09: Status Code: 500 - Internal Server Error - res is not defined - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 16:38:13: Not found in cache: Key:harsh.yada@w3villa.com$2b$10$154swXNt50WgrNiwe3utremSEePgfKYxEspLvIr8AuzDxQ7DNetXy
+info:Jun-30-2023 16:38:13: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 16:38:14: Not found in cache: Key:harsh.yada@w3villa.com$2b$10$154swXNt50WgrNiwe3utremSEePgfKYxEspLvIr8AuzDxQ7DNetXy
+info:Jun-30-2023 16:38:14: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 16:38:21: Status Code: 500 - Internal Server Error - res is not defined - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 16:38:27: Not found in cache: Key:harsh.yada@w3villa.com$2b$10$154swXNt50WgrNiwe3utremSEePgfKYxEspLvIr8AuzDxQ7DNetXy
+info:Jun-30-2023 16:38:27: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 16:38:44: Status Code: 500 - Internal Server Error - res is not defined - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 16:40:26: Not found in cache: Key:harsh.yada@w3villa.com$2b$10$154swXNt50WgrNiwe3utremSEePgfKYxEspLvIr8AuzDxQ7DNetXy
+info:Jun-30-2023 16:40:26: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 16:40:27: Not found in cache: Key:harsh.yada@w3villa.com$2b$10$154swXNt50WgrNiwe3utremSEePgfKYxEspLvIr8AuzDxQ7DNetXy
+info:Jun-30-2023 16:40:27: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 16:40:30: Status Code: 500 - Some internal error occured - invalid token - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 16:40:30: Status Code: 400 - User not identified. - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 16:40:35: Not found in cache: Key:harsh.yada@w3villa.com$2b$10$154swXNt50WgrNiwe3utremSEePgfKYxEspLvIr8AuzDxQ7DNetXy
+info:Jun-30-2023 16:40:35: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 16:40:57: Status Code: 400 - [object Object] - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 16:41:07: Status Code: 400 - [object Object] - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 16:41:26: Not found in cache: Key:harsh.yada@w3villa.com$2b$10$154swXNt50WgrNiwe3utremSEePgfKYxEspLvIr8AuzDxQ7DNetXy
+info:Jun-30-2023 16:41:26: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+error:Jun-30-2023 16:41:31: Status Code: 400 - [object Object] - /api/v1/update - PUT - ::ffff:127.0.0.1
+info:Jun-30-2023 16:44:38: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 16:44:42: Status Code: 200 - Logged In successfully - /api/v1/login - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 16:44:46: Not found in cache: Key:harsh.yada@w3villa.com$2b$10$154swXNt50WgrNiwe3utremSEePgfKYxEspLvIr8AuzDxQ7DNetXy
+info:Jun-30-2023 16:44:46: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 16:46:05: Not found in cache: Key:harsh.yada@w3villa.com$2b$10$154swXNt50WgrNiwe3utremSEePgfKYxEspLvIr8AuzDxQ7DNetXy
+info:Jun-30-2023 16:46:05: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 16:46:08: Not found in cache: Key:harsh.yada@w3villa.com$2b$10$154swXNt50WgrNiwe3utremSEePgfKYxEspLvIr8AuzDxQ7DNetXy
+info:Jun-30-2023 16:46:08: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 16:46:44: Not found in cache: Key:harsh.yada@w3villa.com$2b$10$154swXNt50WgrNiwe3utremSEePgfKYxEspLvIr8AuzDxQ7DNetXy
+info:Jun-30-2023 16:46:44: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 16:46:46: Not found in cache: Key:harsh.yada@w3villa.com$2b$10$154swXNt50WgrNiwe3utremSEePgfKYxEspLvIr8AuzDxQ7DNetXy
+info:Jun-30-2023 16:46:46: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 16:46:53: Not found in cache: Key:harsh.yada@w3villa.com$2b$10$154swXNt50WgrNiwe3utremSEePgfKYxEspLvIr8AuzDxQ7DNetXy
+info:Jun-30-2023 16:46:53: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 16:47:35: Not found in cache: Key:harsh.yada@w3villa.com$2b$10$154swXNt50WgrNiwe3utremSEePgfKYxEspLvIr8AuzDxQ7DNetXy
+info:Jun-30-2023 16:47:35: Status Code: 200 - User deleted successfully - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 16:48:00: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 16:48:25: Status Code: 400 - [object Object] - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 16:48:40: Serving from cache: Key:harsh.yada@w3villa.com$2b$10$4hEn2tNrysLcr9kimtlHE.8.dr7qIegU3gMwZnEH/7763F3mGrllu - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$4hEn2tNrysLcr9kimtlHE.8.dr7qIegU3gMwZnEH/7763F3mGrllu',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649eb9e7f5f192d51f6c3c70"),
+  __v: 0
+}
+info:Jun-30-2023 16:48:40: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 16:50:09: Not found in cache: Key:harsh.yada@w3villa.com$2b$10$154swXNt50WgrNiwe3utremSEePgfKYxEspLvIr8AuzDxQ7DNetXy
+info:Jun-30-2023 16:50:09: Status Code: 200 - User deleted successfully - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 16:50:13: Not found in cache: Key:harsh.yada@w3villa.com$2b$10$4hEn2tNrysLcr9kimtlHE.8.dr7qIegU3gMwZnEH/7763F3mGrllu
+error:Jun-30-2023 16:50:13: Status Code: 400 - User not identified. - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 16:50:21: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 16:50:24: Not found in cache: Key:harsh.yada@w3villa.com$2b$10$4hEn2tNrysLcr9kimtlHE.8.dr7qIegU3gMwZnEH/7763F3mGrllu
+info:Jun-30-2023 16:50:24: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 16:50:26: Not found in cache: Key:harsh.yada@w3villa.com$2b$10$4hEn2tNrysLcr9kimtlHE.8.dr7qIegU3gMwZnEH/7763F3mGrllu
+info:Jun-30-2023 16:50:26: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 16:50:27: Not found in cache: Key:harsh.yada@w3villa.com$2b$10$4hEn2tNrysLcr9kimtlHE.8.dr7qIegU3gMwZnEH/7763F3mGrllu
+info:Jun-30-2023 16:50:27: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 16:50:28: Not found in cache: Key:harsh.yada@w3villa.com$2b$10$4hEn2tNrysLcr9kimtlHE.8.dr7qIegU3gMwZnEH/7763F3mGrllu
+info:Jun-30-2023 16:50:28: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 16:50:28: Not found in cache: Key:harsh.yada@w3villa.com$2b$10$4hEn2tNrysLcr9kimtlHE.8.dr7qIegU3gMwZnEH/7763F3mGrllu
+info:Jun-30-2023 16:50:28: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 16:50:29: Not found in cache: Key:harsh.yada@w3villa.com$2b$10$4hEn2tNrysLcr9kimtlHE.8.dr7qIegU3gMwZnEH/7763F3mGrllu
+info:Jun-30-2023 16:50:29: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 16:50:29: Not found in cache: Key:harsh.yada@w3villa.com$2b$10$4hEn2tNrysLcr9kimtlHE.8.dr7qIegU3gMwZnEH/7763F3mGrllu
+info:Jun-30-2023 16:50:29: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 16:50:29: Not found in cache: Key:harsh.yada@w3villa.com$2b$10$4hEn2tNrysLcr9kimtlHE.8.dr7qIegU3gMwZnEH/7763F3mGrllu
+info:Jun-30-2023 16:50:29: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 16:50:29: Not found in cache: Key:harsh.yada@w3villa.com$2b$10$4hEn2tNrysLcr9kimtlHE.8.dr7qIegU3gMwZnEH/7763F3mGrllu
+info:Jun-30-2023 16:50:29: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 16:50:30: Not found in cache: Key:harsh.yada@w3villa.com$2b$10$4hEn2tNrysLcr9kimtlHE.8.dr7qIegU3gMwZnEH/7763F3mGrllu
+info:Jun-30-2023 16:50:30: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 16:50:30: Not found in cache: Key:harsh.yada@w3villa.com$2b$10$4hEn2tNrysLcr9kimtlHE.8.dr7qIegU3gMwZnEH/7763F3mGrllu
+info:Jun-30-2023 16:50:30: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 16:50:30: Not found in cache: Key:harsh.yada@w3villa.com$2b$10$4hEn2tNrysLcr9kimtlHE.8.dr7qIegU3gMwZnEH/7763F3mGrllu
+info:Jun-30-2023 16:50:30: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 16:50:30: Not found in cache: Key:harsh.yada@w3villa.com$2b$10$4hEn2tNrysLcr9kimtlHE.8.dr7qIegU3gMwZnEH/7763F3mGrllu
+info:Jun-30-2023 16:50:30: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 16:50:53: Serving from cache: Key:harsh.yada@w3villa.com$2b$10$8ZktYcpWa0yk0FSkbi5l5.SlZFTz.8OQ05SlbO/f4e5RXPrqGzqIO - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$8ZktYcpWa0yk0FSkbi5l5.SlZFTz.8OQ05SlbO/f4e5RXPrqGzqIO',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649eba75f5f192d51f6c3c76"),
+  __v: 0
+}
+info:Jun-30-2023 16:50:53: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 16:55:20: Not found in cache: Key:harsh.yada@w3villa.com
+info:Jun-30-2023 16:55:20: Status Code: 200 - User deleted successfully - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 16:55:27: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 16:56:28: Status Code: 200 - Logged In successfully - /api/v1/login - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 16:56:50: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$emUzohUyvrVwrSXC48aRDua8IbDQdMdkk10EPX0equ3yMbgpoT2xa',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ebba74abb43d785d90fbc"),
+  __v: 0
+}
+info:Jun-30-2023 16:56:50: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 16:57:26: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$emUzohUyvrVwrSXC48aRDua8IbDQdMdkk10EPX0equ3yMbgpoT2xa',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ebba74abb43d785d90fbc"),
+  __v: 0
+}
+info:Jun-30-2023 16:57:26: Status Code: 200 - User updated successfully - /api/v1/update - PUT - ::ffff:127.0.0.1
+info:Jun-30-2023 16:57:34: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$emUzohUyvrVwrSXC48aRDua8IbDQdMdkk10EPX0equ3yMbgpoT2xa',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ebba74abb43d785d90fbc"),
+  __v: 0
+}
+info:Jun-30-2023 16:57:34: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 16:57:45: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$emUzohUyvrVwrSXC48aRDua8IbDQdMdkk10EPX0equ3yMbgpoT2xa',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ebba74abb43d785d90fbc"),
+  __v: 0
+}
+info:Jun-30-2023 16:57:45: Status Code: 200 - User updated successfully - /api/v1/update - PUT - ::ffff:127.0.0.1
+info:Jun-30-2023 16:57:58: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$emUzohUyvrVwrSXC48aRDua8IbDQdMdkk10EPX0equ3yMbgpoT2xa',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ebba74abb43d785d90fbc"),
+  __v: 0
+}
+info:Jun-30-2023 16:57:58: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 16:58:00: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$emUzohUyvrVwrSXC48aRDua8IbDQdMdkk10EPX0equ3yMbgpoT2xa',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ebba74abb43d785d90fbc"),
+  __v: 0
+}
+info:Jun-30-2023 16:58:00: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 16:58:01: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$emUzohUyvrVwrSXC48aRDua8IbDQdMdkk10EPX0equ3yMbgpoT2xa',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ebba74abb43d785d90fbc"),
+  __v: 0
+}
+info:Jun-30-2023 16:58:01: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 17:01:03: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$emUzohUyvrVwrSXC48aRDua8IbDQdMdkk10EPX0equ3yMbgpoT2xa',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ebba74abb43d785d90fbc"),
+  __v: 0
+}
+error:Jun-30-2023 17:01:03: Status Code: 400 - Could not update user - /api/v1/update - PUT - ::ffff:127.0.0.1
+info:Jun-30-2023 17:01:47: Not found in cache: Key:harsh.yada@w3villa.com
+error:Jun-30-2023 17:01:47: Status Code: 400 - User not identified. - /api/v1/update - PUT - ::ffff:127.0.0.1
+info:Jun-30-2023 17:01:49: Not found in cache: Key:harsh.yada@w3villa.com
+error:Jun-30-2023 17:01:49: Status Code: 400 - User not identified. - /api/v1/update - PUT - ::ffff:127.0.0.1
+info:Jun-30-2023 17:16:42: Not found in cache: Key:harsh.yada@w3villa.com
+error:Jun-30-2023 17:16:42: Status Code: 400 - User not identified. - /api/v1/update - PUT - ::ffff:127.0.0.1
+info:Jun-30-2023 17:16:43: Not found in cache: Key:harsh.yada@w3villa.com
+error:Jun-30-2023 17:16:43: Status Code: 400 - User not identified. - /api/v1/update - PUT - ::ffff:127.0.0.1
+error:Jun-30-2023 17:16:47: Status Code: 409 - User does not exist - /api/v1/login - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 17:16:51: Status Code: 409 - User does not exist - /api/v1/login - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 17:16:55: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 17:19:37: Status Code: 409 - User already exist - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 17:19:41: Status Code: 409 - User does not exist - /api/v1/login - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 17:19:44: Status Code: 409 - User does not exist - /api/v1/login - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 17:19:50: Status Code: 200 - Logged In successfully - /api/v1/login - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 17:20:07: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$z0qKhrbEC18frM8Eb7M19.82ZWX1EehfTc/4AxMxWbn0OKIOrnY3W',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec0af220ef77397584257"),
+  __v: 0
+}
+info:Jun-30-2023 17:20:07: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 17:24:36: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$z0qKhrbEC18frM8Eb7M19.82ZWX1EehfTc/4AxMxWbn0OKIOrnY3W',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec0af220ef77397584257"),
+  __v: 0
+}
+info:Jun-30-2023 17:24:36: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 17:24:53: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$z0qKhrbEC18frM8Eb7M19.82ZWX1EehfTc/4AxMxWbn0OKIOrnY3W',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec0af220ef77397584257"),
+  __v: 0
+}
+info:Jun-30-2023 17:24:53: Status Code: 200 - User updated successfully - /api/v1/update - PUT - ::ffff:127.0.0.1
+info:Jun-30-2023 17:25:05: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$z0qKhrbEC18frM8Eb7M19.82ZWX1EehfTc/4AxMxWbn0OKIOrnY3W',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec0af220ef77397584257"),
+  __v: 0
+}
+error:Jun-30-2023 17:25:05: Status Code: 400 - Could not update user - /api/v1/update - PUT - ::ffff:127.0.0.1
+info:Jun-30-2023 17:25:32: Not found in cache: Key:harshyada@w3villa.com
+info:Jun-30-2023 17:25:32: Status Code: 200 - User updated successfully - /api/v1/update - PUT - ::ffff:127.0.0.1
+info:Jun-30-2023 17:25:36: Not found in cache: Key:harshyada@w3villa.com
+info:Jun-30-2023 17:25:36: Status Code: 200 - User updated successfully - /api/v1/update - PUT - ::ffff:127.0.0.1
+info:Jun-30-2023 17:25:37: Not found in cache: Key:harshyada@w3villa.com
+info:Jun-30-2023 17:25:37: Status Code: 200 - User updated successfully - /api/v1/update - PUT - ::ffff:127.0.0.1
+info:Jun-30-2023 17:25:41: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$z0qKhrbEC18frM8Eb7M19.82ZWX1EehfTc/4AxMxWbn0OKIOrnY3W',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec0af220ef77397584257"),
+  __v: 0
+}
+info:Jun-30-2023 17:25:41: Status Code: 200 - User deleted successfully - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:25:44: Not found in cache: Key:harsh.yada@w3villa.com
+error:Jun-30-2023 17:25:44: Status Code: 400 - User not identified. - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:25:58: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 17:26:00: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$uVfOjWHjBSHu/lACYk9Dvu2PxPO/RoY5q9qqy9xXj4ZYZrbqYPZYq',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec2ce220ef77397584268"),
+  __v: 0
+}
+info:Jun-30-2023 17:26:00: Status Code: 200 - User deleted successfully - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:26:06: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 17:26:13: Not found in cache: Key:harshyada@w3villa.com
+error:Jun-30-2023 17:26:13: Status Code: 400 - User not identified. - /api/v1/update - PUT - ::ffff:127.0.0.1
+info:Jun-30-2023 17:26:37: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$MhGWY9IVmDTznOYASvixM.hHazagj/Cp8T0fxm9eFWUmYVHJ04rCG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec2d6220ef7739758426c"),
+  __v: 0
+}
+info:Jun-30-2023 17:26:37: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 17:26:41: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$MhGWY9IVmDTznOYASvixM.hHazagj/Cp8T0fxm9eFWUmYVHJ04rCG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec2d6220ef7739758426c"),
+  __v: 0
+}
+info:Jun-30-2023 17:26:41: Status Code: 200 - User updated successfully - /api/v1/update - PUT - ::ffff:127.0.0.1
+info:Jun-30-2023 17:26:46: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$MhGWY9IVmDTznOYASvixM.hHazagj/Cp8T0fxm9eFWUmYVHJ04rCG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec2d6220ef7739758426c"),
+  __v: 0
+}
+info:Jun-30-2023 17:26:46: Status Code: 200 - User deleted successfully - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:30:25: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 17:30:42: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$sNcJNdwkP9sicK1o019USeIbnvyPJOGG7FYY70.evlUWDrnqiTSue',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec3d92f5d73328d9c2326"),
+  __v: 0
+}
+info:Jun-30-2023 17:30:42: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 17:30:55: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$sNcJNdwkP9sicK1o019USeIbnvyPJOGG7FYY70.evlUWDrnqiTSue',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec3d92f5d73328d9c2326"),
+  __v: 0
+}
+info:Jun-30-2023 17:30:55: Status Code: 200 - User updated successfully - /api/v1/update - PUT - ::ffff:127.0.0.1
+info:Jun-30-2023 17:32:01: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$sNcJNdwkP9sicK1o019USeIbnvyPJOGG7FYY70.evlUWDrnqiTSue',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec3d92f5d73328d9c2326"),
+  __v: 0
+}
+error:Jun-30-2023 17:32:01: Status Code: 500 - Internal Server Error - userModel.findByOneAndDelete is not a function - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:32:02: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$sNcJNdwkP9sicK1o019USeIbnvyPJOGG7FYY70.evlUWDrnqiTSue',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec3d92f5d73328d9c2326"),
+  __v: 0
+}
+error:Jun-30-2023 17:32:02: Status Code: 500 - Internal Server Error - userModel.findByOneAndDelete is not a function - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:32:07: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$sNcJNdwkP9sicK1o019USeIbnvyPJOGG7FYY70.evlUWDrnqiTSue',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec3d92f5d73328d9c2326"),
+  __v: 0
+}
+error:Jun-30-2023 17:32:07: Status Code: 400 - Could not update user - /api/v1/update - PUT - ::ffff:127.0.0.1
+info:Jun-30-2023 17:32:22: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 17:32:40: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$bVoPpQARu0vZlxlU7HlyzunSPuvaG/DKmv.sa0Hq3DnpRdB.R5xXm',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec44e2f5d73328d9c232b"),
+  __v: 0
+}
+info:Jun-30-2023 17:32:40: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 17:33:30: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$bVoPpQARu0vZlxlU7HlyzunSPuvaG/DKmv.sa0Hq3DnpRdB.R5xXm',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec44e2f5d73328d9c232b"),
+  __v: 0
+}
+info:Jun-30-2023 17:33:30: Status Code: 200 - User updated successfully - /api/v1/update - PUT - ::ffff:127.0.0.1
+info:Jun-30-2023 17:33:44: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$bVoPpQARu0vZlxlU7HlyzunSPuvaG/DKmv.sa0Hq3DnpRdB.R5xXm',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec44e2f5d73328d9c232b"),
+  __v: 0
+}
+error:Jun-30-2023 17:33:44: Status Code: 400 - Could not update user - /api/v1/update - PUT - ::ffff:127.0.0.1
+info:Jun-30-2023 17:34:18: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 17:34:31: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$0YrFZkYvzM2j20pzTNBSFeBenEMUQo62uLMJuWGCpp86e3Jq8dKvK',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec4c22f5d73328d9c2330"),
+  __v: 0
+}
+info:Jun-30-2023 17:34:31: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 17:34:42: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$0YrFZkYvzM2j20pzTNBSFeBenEMUQo62uLMJuWGCpp86e3Jq8dKvK',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec4c22f5d73328d9c2330"),
+  __v: 0
+}
+info:Jun-30-2023 17:34:42: Status Code: 200 - User updated successfully - /api/v1/update - PUT - ::ffff:127.0.0.1
+info:Jun-30-2023 17:35:06: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$0YrFZkYvzM2j20pzTNBSFeBenEMUQo62uLMJuWGCpp86e3Jq8dKvK',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec4c22f5d73328d9c2330"),
+  __v: 0
+}
+info:Jun-30-2023 17:35:06: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 17:35:09: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$0YrFZkYvzM2j20pzTNBSFeBenEMUQo62uLMJuWGCpp86e3Jq8dKvK',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec4c22f5d73328d9c2330"),
+  __v: 0
+}
+info:Jun-30-2023 17:35:09: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 17:35:10: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$0YrFZkYvzM2j20pzTNBSFeBenEMUQo62uLMJuWGCpp86e3Jq8dKvK',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec4c22f5d73328d9c2330"),
+  __v: 0
+}
+info:Jun-30-2023 17:35:10: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 17:35:10: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$0YrFZkYvzM2j20pzTNBSFeBenEMUQo62uLMJuWGCpp86e3Jq8dKvK',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec4c22f5d73328d9c2330"),
+  __v: 0
+}
+info:Jun-30-2023 17:35:10: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 17:35:10: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$0YrFZkYvzM2j20pzTNBSFeBenEMUQo62uLMJuWGCpp86e3Jq8dKvK',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec4c22f5d73328d9c2330"),
+  __v: 0
+}
+info:Jun-30-2023 17:35:10: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 17:35:10: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$0YrFZkYvzM2j20pzTNBSFeBenEMUQo62uLMJuWGCpp86e3Jq8dKvK',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec4c22f5d73328d9c2330"),
+  __v: 0
+}
+info:Jun-30-2023 17:35:10: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 17:35:10: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$0YrFZkYvzM2j20pzTNBSFeBenEMUQo62uLMJuWGCpp86e3Jq8dKvK',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec4c22f5d73328d9c2330"),
+  __v: 0
+}
+info:Jun-30-2023 17:35:10: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 17:35:11: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$0YrFZkYvzM2j20pzTNBSFeBenEMUQo62uLMJuWGCpp86e3Jq8dKvK',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec4c22f5d73328d9c2330"),
+  __v: 0
+}
+info:Jun-30-2023 17:35:11: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 17:36:34: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 17:36:52: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$bIOPZDW6Couvu27.e54gbOgXIFJh32sE6O3IdKNpnWO4xixq4oVR6',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec54a2f5d73328d9c2334"),
+  __v: 0
+}
+info:Jun-30-2023 17:36:52: Status Code: 200 - User updated successfully - /api/v1/update - PUT - ::ffff:127.0.0.1
+info:Jun-30-2023 17:37:43: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 17:38:00: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$k7RNPCGDYs/uhvq5qUnAn.CVjI7jcBBbhSTJjAr/3co3HS5UoHjxi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec58fdd4744ed23e286db"),
+  __v: 0
+}
+info:Jun-30-2023 17:38:00: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 17:38:22: Not found in cache: Key:harsh.yada@w3villa.com
+info:Jun-30-2023 17:38:22: Status Code: 200 - User updated successfully - /api/v1/update - PUT - ::ffff:127.0.0.1
+info:Jun-30-2023 17:38:54: Not found in cache: Key:harsh.yada@w3villa.com
+error:Jun-30-2023 17:38:54: Status Code: 400 - User not identified. - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:39:02: Not found in cache: Key:harsh.yada@w3villa.com
+error:Jun-30-2023 17:39:02: Status Code: 400 - User not identified. - /api/v1/update - PUT - ::ffff:127.0.0.1
+info:Jun-30-2023 17:39:10: Not found in cache: Key:harshyada@w3villa.com
+error:Jun-30-2023 17:39:10: Status Code: 500 - Internal Server Error - userModel.findByOneAndDelete is not a function - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:39:19: Not found in cache: Key:harshyada@w3villa.com
+error:Jun-30-2023 17:39:19: Status Code: 500 - Internal Server Error - userModel.findByOneAndDelete is not a function - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:39:55: Not found in cache: Key:harshyada@w3villa.com
+info:Jun-30-2023 17:39:55: Status Code: 200 - User deleted successfully - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:39:59: Not found in cache: Key:harsh.yada@w3villa.com
+error:Jun-30-2023 17:39:59: Status Code: 400 - User not identified. - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 17:40:14: Not found in cache: Key:harshyada@w3villa.com
+error:Jun-30-2023 17:40:14: Status Code: 400 - User not identified. - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 17:40:15: Not found in cache: Key:harshyada@w3villa.com
+error:Jun-30-2023 17:40:15: Status Code: 400 - User not identified. - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 17:40:20: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 17:46:14: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 17:46:15: Status Code: 409 - User already exist - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 17:46:16: Status Code: 409 - User already exist - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 17:46:19: Status Code: 200 - Logged In successfully - /api/v1/login - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 17:46:22: Not found in cache: Key:harshyada@w3villa.com
+error:Jun-30-2023 17:46:22: Status Code: 400 - User not identified. - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 17:46:35: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$nbF0lNORwiU/Y.6nTty1R.D6eF2cRCYkNcfPnN6xVLThzjU5D/KZu',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec78e006707ee3fea026d"),
+  __v: 0
+}
+info:Jun-30-2023 17:46:35: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 17:46:46: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$nbF0lNORwiU/Y.6nTty1R.D6eF2cRCYkNcfPnN6xVLThzjU5D/KZu',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec78e006707ee3fea026d"),
+  __v: 0
+}
+info:Jun-30-2023 17:46:46: Status Code: 200 - User updated successfully - /api/v1/update - PUT - ::ffff:127.0.0.1
+info:Jun-30-2023 17:46:55: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$nbF0lNORwiU/Y.6nTty1R.D6eF2cRCYkNcfPnN6xVLThzjU5D/KZu',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec78e006707ee3fea026d"),
+  __v: 0
+}
+error:Jun-30-2023 17:46:55: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:46:58: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$nbF0lNORwiU/Y.6nTty1R.D6eF2cRCYkNcfPnN6xVLThzjU5D/KZu',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec78e006707ee3fea026d"),
+  __v: 0
+}
+error:Jun-30-2023 17:46:58: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:47:04: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$nbF0lNORwiU/Y.6nTty1R.D6eF2cRCYkNcfPnN6xVLThzjU5D/KZu',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec78e006707ee3fea026d"),
+  __v: 0
+}
+error:Jun-30-2023 17:47:04: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:47:05: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$nbF0lNORwiU/Y.6nTty1R.D6eF2cRCYkNcfPnN6xVLThzjU5D/KZu',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec78e006707ee3fea026d"),
+  __v: 0
+}
+error:Jun-30-2023 17:47:05: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:47:06: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$nbF0lNORwiU/Y.6nTty1R.D6eF2cRCYkNcfPnN6xVLThzjU5D/KZu',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec78e006707ee3fea026d"),
+  __v: 0
+}
+error:Jun-30-2023 17:47:06: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:47:32: Not found in cache: Key:harshyada@w3villa.com
+info:Jun-30-2023 17:47:32: Status Code: 200 - User deleted successfully - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:48:33: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 17:48:34: Status Code: 409 - User already exist - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 17:48:37: Status Code: 200 - Logged In successfully - /api/v1/login - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 17:48:44: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$jiTX9.uEwr4ecfDyxZovoeQORfGi9ENem2rlt6vXYgOpCuSib1szG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec81985c079d015869e46"),
+  __v: 0
+}
+info:Jun-30-2023 17:48:44: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 17:48:46: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$jiTX9.uEwr4ecfDyxZovoeQORfGi9ENem2rlt6vXYgOpCuSib1szG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec81985c079d015869e46"),
+  __v: 0
+}
+info:Jun-30-2023 17:48:46: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 17:48:47: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$jiTX9.uEwr4ecfDyxZovoeQORfGi9ENem2rlt6vXYgOpCuSib1szG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec81985c079d015869e46"),
+  __v: 0
+}
+info:Jun-30-2023 17:48:47: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 17:48:47: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$jiTX9.uEwr4ecfDyxZovoeQORfGi9ENem2rlt6vXYgOpCuSib1szG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec81985c079d015869e46"),
+  __v: 0
+}
+info:Jun-30-2023 17:48:47: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 17:48:47: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$jiTX9.uEwr4ecfDyxZovoeQORfGi9ENem2rlt6vXYgOpCuSib1szG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec81985c079d015869e46"),
+  __v: 0
+}
+info:Jun-30-2023 17:48:47: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 17:48:47: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$jiTX9.uEwr4ecfDyxZovoeQORfGi9ENem2rlt6vXYgOpCuSib1szG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec81985c079d015869e46"),
+  __v: 0
+}
+info:Jun-30-2023 17:48:47: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 17:48:47: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$jiTX9.uEwr4ecfDyxZovoeQORfGi9ENem2rlt6vXYgOpCuSib1szG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec81985c079d015869e46"),
+  __v: 0
+}
+info:Jun-30-2023 17:48:47: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 17:48:48: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$jiTX9.uEwr4ecfDyxZovoeQORfGi9ENem2rlt6vXYgOpCuSib1szG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec81985c079d015869e46"),
+  __v: 0
+}
+info:Jun-30-2023 17:48:48: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 17:48:54: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$jiTX9.uEwr4ecfDyxZovoeQORfGi9ENem2rlt6vXYgOpCuSib1szG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec81985c079d015869e46"),
+  __v: 0
+}
+info:Jun-30-2023 17:48:54: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 17:48:57: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$jiTX9.uEwr4ecfDyxZovoeQORfGi9ENem2rlt6vXYgOpCuSib1szG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec81985c079d015869e46"),
+  __v: 0
+}
+info:Jun-30-2023 17:48:57: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 17:49:07: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$jiTX9.uEwr4ecfDyxZovoeQORfGi9ENem2rlt6vXYgOpCuSib1szG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec81985c079d015869e46"),
+  __v: 0
+}
+info:Jun-30-2023 17:49:07: Status Code: 200 - User updated successfully - /api/v1/update - PUT - ::ffff:127.0.0.1
+info:Jun-30-2023 17:49:14: Not found in cache: Key:harsh.yada@w3villa.com
+error:Jun-30-2023 17:49:14: Status Code: 400 - User not identified. - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 17:49:15: Not found in cache: Key:harsh.yada@w3villa.com
+error:Jun-30-2023 17:49:15: Status Code: 400 - User not identified. - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 17:49:20: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$jiTX9.uEwr4ecfDyxZovoeQORfGi9ENem2rlt6vXYgOpCuSib1szG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec81985c079d015869e46"),
+  __v: 0
+}
+info:Jun-30-2023 17:49:20: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 17:49:25: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$jiTX9.uEwr4ecfDyxZovoeQORfGi9ENem2rlt6vXYgOpCuSib1szG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec81985c079d015869e46"),
+  __v: 0
+}
+error:Jun-30-2023 17:49:25: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:49:26: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$jiTX9.uEwr4ecfDyxZovoeQORfGi9ENem2rlt6vXYgOpCuSib1szG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec81985c079d015869e46"),
+  __v: 0
+}
+error:Jun-30-2023 17:49:26: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:49:32: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$jiTX9.uEwr4ecfDyxZovoeQORfGi9ENem2rlt6vXYgOpCuSib1szG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec81985c079d015869e46"),
+  __v: 0
+}
+error:Jun-30-2023 17:49:32: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:49:33: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$jiTX9.uEwr4ecfDyxZovoeQORfGi9ENem2rlt6vXYgOpCuSib1szG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec81985c079d015869e46"),
+  __v: 0
+}
+error:Jun-30-2023 17:49:33: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:49:34: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$jiTX9.uEwr4ecfDyxZovoeQORfGi9ENem2rlt6vXYgOpCuSib1szG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec81985c079d015869e46"),
+  __v: 0
+}
+error:Jun-30-2023 17:49:34: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:49:35: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$jiTX9.uEwr4ecfDyxZovoeQORfGi9ENem2rlt6vXYgOpCuSib1szG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec81985c079d015869e46"),
+  __v: 0
+}
+error:Jun-30-2023 17:49:35: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:49:35: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$jiTX9.uEwr4ecfDyxZovoeQORfGi9ENem2rlt6vXYgOpCuSib1szG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec81985c079d015869e46"),
+  __v: 0
+}
+error:Jun-30-2023 17:49:35: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:49:35: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$jiTX9.uEwr4ecfDyxZovoeQORfGi9ENem2rlt6vXYgOpCuSib1szG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec81985c079d015869e46"),
+  __v: 0
+}
+error:Jun-30-2023 17:49:35: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:49:35: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$jiTX9.uEwr4ecfDyxZovoeQORfGi9ENem2rlt6vXYgOpCuSib1szG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec81985c079d015869e46"),
+  __v: 0
+}
+error:Jun-30-2023 17:49:35: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:49:35: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$jiTX9.uEwr4ecfDyxZovoeQORfGi9ENem2rlt6vXYgOpCuSib1szG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec81985c079d015869e46"),
+  __v: 0
+}
+error:Jun-30-2023 17:49:35: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:49:36: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$jiTX9.uEwr4ecfDyxZovoeQORfGi9ENem2rlt6vXYgOpCuSib1szG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec81985c079d015869e46"),
+  __v: 0
+}
+error:Jun-30-2023 17:49:36: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:49:36: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$jiTX9.uEwr4ecfDyxZovoeQORfGi9ENem2rlt6vXYgOpCuSib1szG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec81985c079d015869e46"),
+  __v: 0
+}
+error:Jun-30-2023 17:49:36: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:49:36: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$jiTX9.uEwr4ecfDyxZovoeQORfGi9ENem2rlt6vXYgOpCuSib1szG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec81985c079d015869e46"),
+  __v: 0
+}
+error:Jun-30-2023 17:49:36: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:49:45: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$jiTX9.uEwr4ecfDyxZovoeQORfGi9ENem2rlt6vXYgOpCuSib1szG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec81985c079d015869e46"),
+  __v: 0
+}
+error:Jun-30-2023 17:49:45: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:49:54: Status Code: 200 - Logged In successfully - /api/v1/login - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 17:50:07: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$jiTX9.uEwr4ecfDyxZovoeQORfGi9ENem2rlt6vXYgOpCuSib1szG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec81985c079d015869e46"),
+  __v: 0
+}
+error:Jun-30-2023 17:50:07: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:50:08: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$jiTX9.uEwr4ecfDyxZovoeQORfGi9ENem2rlt6vXYgOpCuSib1szG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec81985c079d015869e46"),
+  __v: 0
+}
+error:Jun-30-2023 17:50:08: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:50:09: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$jiTX9.uEwr4ecfDyxZovoeQORfGi9ENem2rlt6vXYgOpCuSib1szG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec81985c079d015869e46"),
+  __v: 0
+}
+error:Jun-30-2023 17:50:09: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:50:10: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$jiTX9.uEwr4ecfDyxZovoeQORfGi9ENem2rlt6vXYgOpCuSib1szG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec81985c079d015869e46"),
+  __v: 0
+}
+error:Jun-30-2023 17:50:10: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:50:10: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$jiTX9.uEwr4ecfDyxZovoeQORfGi9ENem2rlt6vXYgOpCuSib1szG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec81985c079d015869e46"),
+  __v: 0
+}
+error:Jun-30-2023 17:50:10: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:50:10: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$jiTX9.uEwr4ecfDyxZovoeQORfGi9ENem2rlt6vXYgOpCuSib1szG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec81985c079d015869e46"),
+  __v: 0
+}
+error:Jun-30-2023 17:50:10: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:50:11: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$jiTX9.uEwr4ecfDyxZovoeQORfGi9ENem2rlt6vXYgOpCuSib1szG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec81985c079d015869e46"),
+  __v: 0
+}
+error:Jun-30-2023 17:50:11: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:50:11: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$jiTX9.uEwr4ecfDyxZovoeQORfGi9ENem2rlt6vXYgOpCuSib1szG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec81985c079d015869e46"),
+  __v: 0
+}
+error:Jun-30-2023 17:50:11: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:50:11: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$jiTX9.uEwr4ecfDyxZovoeQORfGi9ENem2rlt6vXYgOpCuSib1szG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec81985c079d015869e46"),
+  __v: 0
+}
+error:Jun-30-2023 17:50:11: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:50:11: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$jiTX9.uEwr4ecfDyxZovoeQORfGi9ENem2rlt6vXYgOpCuSib1szG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec81985c079d015869e46"),
+  __v: 0
+}
+error:Jun-30-2023 17:50:11: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:50:11: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$jiTX9.uEwr4ecfDyxZovoeQORfGi9ENem2rlt6vXYgOpCuSib1szG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec81985c079d015869e46"),
+  __v: 0
+}
+error:Jun-30-2023 17:50:11: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:50:12: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$jiTX9.uEwr4ecfDyxZovoeQORfGi9ENem2rlt6vXYgOpCuSib1szG',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec81985c079d015869e46"),
+  __v: 0
+}
+error:Jun-30-2023 17:50:12: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:50:57: Not found in cache: Key:harshyada@w3villa.com
+info:Jun-30-2023 17:50:57: Status Code: 200 - User deleted successfully - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:51:00: Not found in cache: Key:harshyada@w3villa.com
+error:Jun-30-2023 17:51:00: Status Code: 400 - User not identified. - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:51:01: Not found in cache: Key:harshyada@w3villa.com
+error:Jun-30-2023 17:51:01: Status Code: 400 - User not identified. - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:51:02: Not found in cache: Key:harshyada@w3villa.com
+error:Jun-30-2023 17:51:02: Status Code: 400 - User not identified. - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:51:27: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jun-30-2023 17:51:34: Status Code: 409 - User does not exist - /api/v1/login - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 17:51:40: Status Code: 200 - Logged In successfully - /api/v1/login - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 17:51:45: Not found in cache: Key:harshyada@w3villa.com
+error:Jun-30-2023 17:51:45: Status Code: 400 - User not identified. - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 17:51:46: Not found in cache: Key:harshyada@w3villa.com
+error:Jun-30-2023 17:51:46: Status Code: 400 - User not identified. - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 17:51:58: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+info:Jun-30-2023 17:51:58: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 17:52:34: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+info:Jun-30-2023 17:52:34: Status Code: 200 - User updated successfully - /api/v1/update - PUT - ::ffff:127.0.0.1
+info:Jun-30-2023 17:53:24: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+info:Jun-30-2023 17:53:24: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 17:53:38: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:53:38: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:53:59: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:53:59: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:10: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:10: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:13: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:13: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:14: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:14: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:15: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:15: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:15: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:15: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:16: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:16: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:16: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:16: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:17: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:17: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:17: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:17: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:17: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:17: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:18: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:18: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:18: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:18: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:18: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:18: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:18: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:18: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:18: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:18: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:19: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:19: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:19: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:19: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:19: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:19: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:19: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:19: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:19: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:19: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:20: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:20: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:20: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:20: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:20: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:20: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:20: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:20: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:20: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:20: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:21: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:21: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:21: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:21: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:21: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:21: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:21: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:21: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:21: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:21: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:21: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:21: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:22: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:22: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:22: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:22: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:22: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:22: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:22: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:22: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:23: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:23: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:23: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:23: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:23: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:23: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:23: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:23: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:23: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:23: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:24: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:24: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:24: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:24: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:24: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:24: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:24: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:24: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:24: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:24: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:25: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:25: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:25: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:25: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:25: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:25: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:25: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:25: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:25: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:25: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:26: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:26: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:26: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:26: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:26: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:26: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:26: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:26: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:26: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:26: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:27: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:27: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:27: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:27: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:27: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:27: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:27: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:27: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:27: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:27: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:28: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:28: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:28: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:28: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:28: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:28: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:28: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:28: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:28: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:28: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:28: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:28: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:29: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:29: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:29: Serving from cache: Key:harshyada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$edIJn/kKC4iIrpP7liLa9.ayIHShN7gzrF6Om0RoMX1fwEai/NNyi',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec8c7d0302a1e93e01498"),
+  __v: 0
+}
+error:Jun-30-2023 17:54:29: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:54:46: Not found in cache: Key:harshyada@w3villa.com
+info:Jun-30-2023 17:54:46: Status Code: 200 - User deleted successfully - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:56:01: Not found in cache: Key:harshyada@w3villa.com
+error:Jun-30-2023 17:56:01: Status Code: 400 - User not identified. - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:56:06: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 17:56:12: Status Code: 200 - Logged In successfully - /api/v1/login - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 17:56:22: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$H2jX6LWq/QDDARX85Pw8EurmBMo7aoBFdVYn0Cv7qmLNUAjlE716.',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec9de1d8955df530513d8"),
+  __v: 0
+}
+info:Jun-30-2023 17:56:22: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 17:56:41: Serving from cache: Key:harsh.yada@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$H2jX6LWq/QDDARX85Pw8EurmBMo7aoBFdVYn0Cv7qmLNUAjlE716.',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec9de1d8955df530513d8"),
+  __v: 0
+}
+info:Jun-30-2023 17:56:41: Status Code: 200 - User updated successfully - /api/v1/update - PUT - ::ffff:127.0.0.1
+info:Jun-30-2023 17:57:33: Serving from cache: Key:harshyadav@w3villa.com - Pair{
+  name: 'HarshYadav',
+  email: 'harsh.yada@w3villa.com',
+  password: '$2b$10$H2jX6LWq/QDDARX85Pw8EurmBMo7aoBFdVYn0Cv7qmLNUAjlE716.',
+  phonenumber: 7820059893,
+  _id: new ObjectId("649ec9de1d8955df530513d8"),
+  __v: 0
+}
+error:Jun-30-2023 17:57:33: Status Code: 400 - User could not be deleted - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 17:58:45: Status Code: 200 - User deleted successfully - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+info:Jun-30-2023 18:00:58: Status Code: 201 - User created successfully - /api/v1/register - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 18:01:01: Status Code: 200 - Logged In successfully - /api/v1/login - POST - ::ffff:127.0.0.1
+info:Jun-30-2023 18:01:13: Status Code: 200 - Found User - /api/v1/getuser - GET - ::ffff:127.0.0.1
+info:Jun-30-2023 18:01:22: Status Code: 200 - User updated successfully - /api/v1/update - PUT - ::ffff:127.0.0.1
+info:Jun-30-2023 18:01:37: Status Code: 200 - User deleted successfully - /api/v1/delete - DELETE - ::ffff:127.0.0.1
