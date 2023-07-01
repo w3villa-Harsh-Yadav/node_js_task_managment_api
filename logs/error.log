@@ -270,3 +270,4 @@ error:Jul-01-2023 13:48:11: Status Code: 400 - No task found with this id - /api
 error:Jul-01-2023 13:52:04: Status Code: 400 - [object Object] - /api/v1/tasks/649fc6fd2b920ad4ca5d2dd - GET - ::ffff:127.0.0.1
 error:Jul-01-2023 13:52:14: Status Code: 400 - No task found with this id - /api/v1/tasks/649fc4b8aacac0f344c71c80 - GET - ::ffff:127.0.0.1
 error:Jul-01-2023 13:52:51: Status Code: 400 - [object Object] - /api/v1/tasks/649fc70f2b920ad4ca5d2dd - GET - ::ffff:127.0.0.1
+error:Jul-01-2023 14:19:30: Status Code: 409 - User already exist - /api/v1/user/register - POST - ::ffff:127.0.0.1

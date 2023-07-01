@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "Node_Task_Management_Project_Api",
-    "dateExported": "2023-07-01T08:14:19.063Z",
+    "dateExported": "2023-07-01T08:50:20.530Z",
     "version": "1.1",
     "folders": [],
     "requests": [
@@ -48,11 +48,11 @@
             "colId": "91b47fca-9cae-4fab-a72d-5cff198c76d1",
             "containerId": "",
             "name": "Forgot Password",
-            "url": "http://127.0.0.1:3000/api/v1/forgotpassword",
+            "url": "http://127.0.0.1:3000/api/v1/user/forgotpassword",
             "method": "POST",
             "sortNum": 25000,
             "created": "2023-06-29T07:15:54.955Z",
-            "modified": "2023-06-30T06:39:58.652Z",
+            "modified": "2023-07-01T08:48:57.943Z",
             "headers": [],
             "params": [],
             "body": {
@@ -67,11 +67,11 @@
             "colId": "91b47fca-9cae-4fab-a72d-5cff198c76d1",
             "containerId": "",
             "name": "Update Password",
-            "url": "http://127.0.0.1:3000/api/v1/updatepassword",
+            "url": "http://127.0.0.1:3000/api/v1/user/updatepassword",
             "method": "POST",
             "sortNum": 26250,
             "created": "2023-06-30T05:19:45.581Z",
-            "modified": "2023-06-30T09:58:21.645Z",
+            "modified": "2023-07-01T08:49:06.176Z",
             "headers": [
                 {
                     "name": "otp",
@@ -92,11 +92,11 @@
             "colId": "91b47fca-9cae-4fab-a72d-5cff198c76d1",
             "containerId": "",
             "name": "Get User",
-            "url": "http://127.0.0.1:3000/api/v1/getuser",
+            "url": "http://127.0.0.1:3000/api/v1/user/get",
             "method": "GET",
             "sortNum": 27500,
             "created": "2023-06-29T10:17:24.595Z",
-            "modified": "2023-06-30T13:48:20.186Z",
+            "modified": "2023-07-01T08:46:27.374Z",
             "headers": [
                 {
                     "name": "token",
@@ -111,11 +111,11 @@
             "colId": "91b47fca-9cae-4fab-a72d-5cff198c76d1",
             "containerId": "",
             "name": "Update User",
-            "url": "http://127.0.0.1:3000/api/v1/update",
+            "url": "http://127.0.0.1:3000/api/v1/user/update",
             "method": "PUT",
             "sortNum": 28750,
             "created": "2023-06-29T10:17:35.545Z",
-            "modified": "2023-06-30T13:48:43.954Z",
+            "modified": "2023-07-01T08:49:23.432Z",
             "headers": [
                 {
                     "name": "token",
@@ -197,11 +197,11 @@
             "colId": "91b47fca-9cae-4fab-a72d-5cff198c76d1",
             "containerId": "",
             "name": "Get a Task",
-            "url": "http://127.0.0.1:3000/api/v1/tasks/649fc4b8aacac0f344c71c80",
+            "url": "http://127.0.0.1:3000/api/v1/tasks/649fc70f2b920ad4ca5d2dd9",
             "method": "GET",
             "sortNum": 40000,
             "created": "2023-06-29T07:15:13.587Z",
-            "modified": "2023-07-01T06:43:23.510Z",
+            "modified": "2023-07-01T08:25:58.031Z",
             "headers": [
                 {
                     "name": "token",
