@@ -1,5 +1,5 @@
 const { validationResult } = require('express-validator');
-const logger = require('../logger')
+const logger = require('../helpers/logger')
 
 const checkValidation = async(req,res,next) => {
     try {

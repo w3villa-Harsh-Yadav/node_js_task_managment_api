@@ -1,5 +1,5 @@
 const taskModel = require('../models/task_model')
-const logger = require('../logger')
+const logger = require('../helpers/logger')
 
 
 const addTask = async (req, res) => {
@@ -43,7 +43,7 @@ const getTask = async (req, res) => {
     try {
 
         let { id } = req.params;
-        
+
         let task = await taskModel.findOne({_id:id})
 
         if(!task){
