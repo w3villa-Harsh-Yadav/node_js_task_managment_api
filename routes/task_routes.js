@@ -1,6 +1,6 @@
 const express = require('express');
 const task_routes = express.Router();
-const { body,header } = require('express-validator')
+const { body,header,param } = require('express-validator')
 
 const tasks_controller = require('../controllers/tasks_controller')
 const { checkValidation } = require('../middleware/validationerror')
@@ -19,16 +19,19 @@ task_routes.get('/tasks',[
 
 task_routes.get('/tasks/:id',[
         header('token').isJWT().withMessage('Please provide a valid token'),
+        param('id').isMongoId().withMessage('Please provide a valid id')
 ],checkValidation, authenticate, tasks_controller.getTask);
 
 task_routes.patch('/tasks/:id',[
         header('token').isJWT().withMessage('Please provide a valid token'),
         body("taskname").isString().withMessage('Please provide a valid Task name'),
         body("description").isString().withMessage('Please provide valid letters in description'),
+        param('id').isMongoId().withMessage('Please provide a valid id')
 ],checkValidation, authenticate, tasks_controller.editTask);
 
 task_routes.delete('/tasks/:id',[
         header('token').isJWT().withMessage('Please provide a valid token'),
+        param('id').isMongoId().withMessage('Please provide a valid id')
 ],checkValidation, authenticate, tasks_controller.deleteTask);
 
 task_routes.use('*',(req,res)=>{

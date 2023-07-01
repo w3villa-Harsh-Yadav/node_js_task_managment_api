@@ -43,6 +43,7 @@ const getTask = async (req, res) => {
     try {
 
         let { id } = req.params;
+        
         let task = await taskModel.findOne({_id:id})
 
         if(!task){

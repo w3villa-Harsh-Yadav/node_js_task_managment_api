@@ -1817,3 +1817,10 @@ info:Jul-01-2023 12:36:04: Status Code: 200 - Task deleted successfully - /api/v
 error:Jul-01-2023 12:36:07: Status Code: 400 - Task could not be updated - /api/v1/tasks/649fc4b8aacac0f344c71c80 - PATCH - ::ffff:127.0.0.1
 error:Jul-01-2023 12:36:08: Status Code: 400 - Task could not be updated - /api/v1/tasks/649fc4b8aacac0f344c71c80 - PATCH - ::ffff:127.0.0.1
 error:Jul-01-2023 12:36:09: Status Code: 400 - Task could not be updated - /api/v1/tasks/649fc4b8aacac0f344c71c80 - PATCH - ::ffff:127.0.0.1
+error:Jul-01-2023 13:47:25: Status Code: 400 - No task found with this id - /api/v1/tasks/649fc4b8aacac0f344c71c80 - GET - ::ffff:127.0.0.1
+error:Jul-01-2023 13:47:26: Status Code: 400 - No task found with this id - /api/v1/tasks/649fc4b8aacac0f344c71c80 - GET - ::ffff:127.0.0.1
+error:Jul-01-2023 13:48:02: Status Code: 500 - Internal Server Error - Cast to ObjectId failed for value "649fc6fd2b920ad4ca5d2d" (type string) at path "_id" for model "Task" - /api/v1/tasks/649fc6fd2b920ad4ca5d2d - GET - ::ffff:127.0.0.1
+error:Jul-01-2023 13:48:11: Status Code: 400 - No task found with this id - /api/v1/tasks/649fc4b8aacac0f344c71c80 - GET - ::ffff:127.0.0.1
+error:Jul-01-2023 13:52:04: Status Code: 400 - [object Object] - /api/v1/tasks/649fc6fd2b920ad4ca5d2dd - GET - ::ffff:127.0.0.1
+error:Jul-01-2023 13:52:14: Status Code: 400 - No task found with this id - /api/v1/tasks/649fc4b8aacac0f344c71c80 - GET - ::ffff:127.0.0.1
+error:Jul-01-2023 13:52:51: Status Code: 400 - [object Object] - /api/v1/tasks/649fc70f2b920ad4ca5d2dd - GET - ::ffff:127.0.0.1
