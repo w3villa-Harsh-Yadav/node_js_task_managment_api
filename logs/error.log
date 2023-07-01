@@ -254,3 +254,12 @@ error:Jun-30-2023 19:26:46: Status Code: 400 - User not identified. - /api/v1/up
 error:Jun-30-2023 19:26:47: Status Code: 400 - User not identified. - /api/v1/update - PUT - ::ffff:127.0.0.1
 error:Jun-30-2023 19:26:48: Status Code: 400 - User not identified. - /api/v1/delete - DELETE - ::ffff:127.0.0.1
 error:Jun-30-2023 19:28:01: Status Code: 400 - User not identified. - /api/v1/delete - DELETE - ::ffff:127.0.0.1
+error:Jul-01-2023 11:35:46: Status Code: 409 - User already exist - /api/v1/register - POST - ::ffff:127.0.0.1
+error:Jul-01-2023 11:47:58: Status Code: 409 - User already exist - /api/v1/user/register - POST - ::ffff:127.0.0.1
+error:Jul-01-2023 11:47:59: Status Code: 409 - User already exist - /api/v1/user/register - POST - ::ffff:127.0.0.1
+error:Jul-01-2023 11:48:55: Status Code: 400 - User not identified. - /api/v1/user/delete - DELETE - ::ffff:127.0.0.1
+error:Jul-01-2023 11:57:35: Status Code: 500 - User not identified. - /api/v1/tasks - GET - ::ffff:127.0.0.1
+error:Jul-01-2023 12:29:53: Status Code: 400 - [object Object] - /api/v1/tasks/649fc4b8aacac0f344c71c80 - PATCH - ::ffff:127.0.0.1
+error:Jul-01-2023 12:36:07: Status Code: 400 - Task could not be updated - /api/v1/tasks/649fc4b8aacac0f344c71c80 - PATCH - ::ffff:127.0.0.1
+error:Jul-01-2023 12:36:08: Status Code: 400 - Task could not be updated - /api/v1/tasks/649fc4b8aacac0f344c71c80 - PATCH - ::ffff:127.0.0.1
+error:Jul-01-2023 12:36:09: Status Code: 400 - Task could not be updated - /api/v1/tasks/649fc4b8aacac0f344c71c80 - PATCH - ::ffff:127.0.0.1

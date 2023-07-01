@@ -2,7 +2,6 @@ const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
 
 const userModel = require('../models/user_model')
-const { authenticate } = require("../middleware/authenticate");
 const { sendMail } = require("../middleware/sendmail");
 const logger = require('../logger')
 

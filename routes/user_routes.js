@@ -29,7 +29,7 @@ user_routes.post('/updatepassword',[
         body("updated_password").isStrongPassword().withMessage('Please provide a strong password'),
 ],checkValidation ,controller.updatepassword);
 
-user_routes.get('/getuser',[
+user_routes.get('/get',[
         header('token').isJWT().withMessage('Please provide a valid token'),
 ],checkValidation, authenticate, controller.getUser);
 

@@ -10,15 +10,15 @@ const PORT = 3000 || process.env.PORT;
 
 app.use(express.json());
 
-app.use('/api/v1',user_routes);
+app.use('/api/v1/user',user_routes);
 app.use('/api/v1',task_routes);
 
-app.use('*',(req,res)=>{
-    res.status(404).json({
-        status:false,
-        msg: 'This is not a valid url'
-    })
-})
+// app.use('*',(req,res)=>{
+//     res.status(404).json({
+//         status:false,
+//         msg: 'This is not a valid url'
+//     })
+// })
 
 try {
     connectDb(process.env.MONGO_URI)
