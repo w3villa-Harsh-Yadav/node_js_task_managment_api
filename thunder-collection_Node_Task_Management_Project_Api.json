@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "Node_Task_Management_Project_Api",
-    "dateExported": "2023-06-30T12:32:29.926Z",
+    "dateExported": "2023-07-01T08:14:19.063Z",
     "version": "1.1",
     "folders": [],
     "requests": [
@@ -10,11 +10,11 @@
             "colId": "91b47fca-9cae-4fab-a72d-5cff198c76d1",
             "containerId": "",
             "name": "Register User",
-            "url": "http://127.0.0.1:3000/api/v1/register",
+            "url": "http://127.0.0.1:3000/api/v1/user/register",
             "method": "POST",
             "sortNum": 10000,
             "created": "2023-06-29T07:14:32.097Z",
-            "modified": "2023-06-30T11:04:42.542Z",
+            "modified": "2023-07-01T06:17:58.530Z",
             "headers": [],
             "params": [],
             "body": {
@@ -29,11 +29,11 @@
             "colId": "91b47fca-9cae-4fab-a72d-5cff198c76d1",
             "containerId": "",
             "name": "Login User",
-            "url": "http://127.0.0.1:3000/api/v1/login",
+            "url": "http://127.0.0.1:3000/api/v1/user/login",
             "method": "POST",
             "sortNum": 20000,
             "created": "2023-06-29T07:14:41.114Z",
-            "modified": "2023-06-30T12:21:40.650Z",
+            "modified": "2023-07-01T06:18:08.192Z",
             "headers": [],
             "params": [],
             "body": {
@@ -96,11 +96,11 @@
             "method": "GET",
             "sortNum": 27500,
             "created": "2023-06-29T10:17:24.595Z",
-            "modified": "2023-06-30T12:31:13.787Z",
+            "modified": "2023-06-30T13:48:20.186Z",
             "headers": [
                 {
                     "name": "token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSGFyc2hZYWRhdiIsImVtYWlsIjoiaGFyc2gueWFkYUB3M3ZpbGxhLmNvbSIsImlhdCI6MTY4ODEyODI2MX0.dQyvD0V88CdrNNcLtR_m5ccumHKn6zSHZz58h0ZfMZY"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSGFyc2hZYWRhdiIsImVtYWlsIjoiaGFyc2gueWFkYUB3M3ZpbGxhLmNvbSIsImlhdCI6MTY4ODEzMjg3OH0.yMooaw5iZ3FYdmAQ0Ea9VB4bZg1wZuguMvHv2P8ybj8"
                 }
             ],
             "params": [],
@@ -115,11 +115,11 @@
             "method": "PUT",
             "sortNum": 28750,
             "created": "2023-06-29T10:17:35.545Z",
-            "modified": "2023-06-30T12:31:22.191Z",
+            "modified": "2023-06-30T13:48:43.954Z",
             "headers": [
                 {
                     "name": "token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSGFyc2hZYWRhdiIsImVtYWlsIjoiaGFyc2gueWFkYUB3M3ZpbGxhLmNvbSIsImlhdCI6MTY4ODEyODI2MX0.dQyvD0V88CdrNNcLtR_m5ccumHKn6zSHZz58h0ZfMZY"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSGFyc2hZYWRhdiIsImVtYWlsIjoiaGFyc2gueWFkYUB3M3ZpbGxhLmNvbSIsImlhdCI6MTY4ODEzMjg3OH0.yMooaw5iZ3FYdmAQ0Ea9VB4bZg1wZuguMvHv2P8ybj8"
                 }
             ],
             "params": [],
@@ -135,15 +135,15 @@
             "colId": "91b47fca-9cae-4fab-a72d-5cff198c76d1",
             "containerId": "",
             "name": "DeleteUser",
-            "url": "http://127.0.0.1:3000/api/v1/delete",
+            "url": "http://127.0.0.1:3000/api/v1/user/delete",
             "method": "DELETE",
             "sortNum": 29375,
             "created": "2023-06-29T10:17:45.772Z",
-            "modified": "2023-06-30T12:31:37.338Z",
+            "modified": "2023-07-01T06:18:55.995Z",
             "headers": [
                 {
                     "name": "token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSGFyc2hZYWRhdiIsImVtYWlsIjoiaGFyc2h5YWRhdkB3M3ZpbGxhLmNvbSIsImlhdCI6MTY4ODEyODI4Mn0.6hmuu75CILnqWzYwWeYskMy25Lmz6_ksD6g7aXBinVM"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSGFyc2hZYWRhdiIsImVtYWlsIjoiaGFyc2h5YWRhdkB3M3ZpbGxhLmNvbSIsImlhdCI6MTY4ODEzMzI4OH0.GaPFd-OGhHg7W2-xi5xzeKk_lPDWsZqT-wPW_IGiQAs"
                 }
             ],
             "params": [],
@@ -154,48 +154,105 @@
             "colId": "91b47fca-9cae-4fab-a72d-5cff198c76d1",
             "containerId": "",
             "name": "Add a Task",
-            "url": "",
-            "method": "GET",
+            "url": "http://127.0.0.1:3000/api/v1/tasks",
+            "method": "POST",
             "sortNum": 30000,
             "created": "2023-06-29T07:15:04.573Z",
-            "modified": "2023-06-29T07:15:04.573Z",
-            "headers": []
+            "modified": "2023-07-01T06:26:23.141Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSGFyc2hZYWRhdiIsImVtYWlsIjoiaGFyc2gueWFkYUB3M3ZpbGxhLmNvbSIsImlhdCI6MTY4ODE5MTU1Mn0.JIayVmXboYnBBnOSgZrwO7uCjhX0g6v0ERySPw-vUO4"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"taskname\": \"This is the Third Task name\",\n  \"description\": \"This is the description for the Third task\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "039ecc54-d35d-4c01-9446-fd6d862f62e2",
+            "colId": "91b47fca-9cae-4fab-a72d-5cff198c76d1",
+            "containerId": "",
+            "name": "Get All Tasks",
+            "url": "http://127.0.0.1:3000/api/v1/tasks",
+            "method": "GET",
+            "sortNum": 35000,
+            "created": "2023-07-01T06:26:44.637Z",
+            "modified": "2023-07-01T06:27:39.458Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSGFyc2hZYWRhdiIsImVtYWlsIjoiaGFyc2gueWFkYUB3M3ZpbGxhLmNvbSIsImlhdCI6MTY4ODE5MTU1Mn0.JIayVmXboYnBBnOSgZrwO7uCjhX0g6v0ERySPw-vUO4"
+                }
+            ],
+            "params": [],
+            "tests": []
         },
         {
             "_id": "4c7e2e33-7477-4164-b6eb-9ac84ef4ccd7",
             "colId": "91b47fca-9cae-4fab-a72d-5cff198c76d1",
             "containerId": "",
             "name": "Get a Task",
-            "url": "",
+            "url": "http://127.0.0.1:3000/api/v1/tasks/649fc4b8aacac0f344c71c80",
             "method": "GET",
             "sortNum": 40000,
             "created": "2023-06-29T07:15:13.587Z",
-            "modified": "2023-06-29T07:15:13.588Z",
-            "headers": []
+            "modified": "2023-07-01T06:43:23.510Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSGFyc2hZYWRhdiIsImVtYWlsIjoiaGFyc2gueWFkYUB3M3ZpbGxhLmNvbSIsImlhdCI6MTY4ODE5MTU1Mn0.JIayVmXboYnBBnOSgZrwO7uCjhX0g6v0ERySPw-vUO4"
+                }
+            ],
+            "params": [],
+            "tests": []
         },
         {
             "_id": "695ed4eb-04f5-436b-a11d-15b69dd2661a",
             "colId": "91b47fca-9cae-4fab-a72d-5cff198c76d1",
             "containerId": "",
             "name": "Update a Task",
-            "url": "",
-            "method": "GET",
+            "url": "http://127.0.0.1:3000/api/v1/tasks/649fc4b8aacac0f344c71c80",
+            "method": "PATCH",
             "sortNum": 50000,
             "created": "2023-06-29T07:15:24.527Z",
-            "modified": "2023-06-29T07:15:24.527Z",
-            "headers": []
+            "modified": "2023-07-01T07:00:14.006Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSGFyc2hZYWRhdiIsImVtYWlsIjoiaGFyc2gueWFkYUB3M3ZpbGxhLmNvbSIsImlhdCI6MTY4ODE5MTU1Mn0.JIayVmXboYnBBnOSgZrwO7uCjhX0g6v0ERySPw-vUO4"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"taskname\": \"This is the First updated Task\",\n  \"description\": \"This is the description for the first updated task\"\n}",
+                "form": []
+            },
+            "tests": []
         },
         {
             "_id": "b789712b-b009-4a7c-84db-58fa9eb74125",
             "colId": "91b47fca-9cae-4fab-a72d-5cff198c76d1",
             "containerId": "",
             "name": "Delete a Task",
-            "url": "",
-            "method": "GET",
+            "url": "http://127.0.0.1:3000/api/v1/tasks/649fc4b8aacac0f344c71c80",
+            "method": "DELETE",
             "sortNum": 60000,
             "created": "2023-06-29T07:15:37.440Z",
-            "modified": "2023-06-29T07:15:37.441Z",
-            "headers": []
+            "modified": "2023-07-01T07:06:04.559Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSGFyc2hZYWRhdiIsImVtYWlsIjoiaGFyc2gueWFkYUB3M3ZpbGxhLmNvbSIsImlhdCI6MTY4ODE5MTU1Mn0.JIayVmXboYnBBnOSgZrwO7uCjhX0g6v0ERySPw-vUO4"
+                }
+            ],
+            "params": [],
+            "tests": []
         }
     ]
 }
