@@ -1,5 +1,5 @@
 const express = require('express');
-const { body,header } = require('express-validator')
+const { body,header,param } = require('express-validator')
 const user_routes = express.Router();
 
 const controller = require('../controllers/users_controller')
@@ -23,10 +23,10 @@ user_routes.post('/forgotpassword',[
         body("email").isEmail().withMessage('Please provide a valid email'),
 ],checkValidation ,controller.forgotpassword);
 
-user_routes.post('/updatepassword',[
+user_routes.post('/updatepassword/:token',[
         body('otp').isAlphanumeric().isLength({ min: 7, max:7}).withMessage('Please provide valid otp'),
-        body("email").isEmail().withMessage('Please provide a valid email'),
         body("updated_password").isStrongPassword().withMessage('Please provide a strong password'),
+        param("token").isJWT().withMessage('Please provide a valid token')
 ],checkValidation ,controller.updatepassword);
 
 user_routes.get('/get',[

@@ -131,6 +131,8 @@ const forgotpassword = async(req,res) =>{
         }
 
         let randomString = await sendMail(user);
+        const token = jwt.sign({name:user.name,email:user.email},process.env.SECRET_KEY,
+            { expiresIn: 10 * 60 });
 
         if(!randomString){
             logger.error(`Status Code: ${500} - Mail could not be sent - ${req.originalUrl} - ${req.method} - ${req.ip}`);
@@ -139,6 +141,7 @@ const forgotpassword = async(req,res) =>{
                 msg:'Mail could not be sent.'
             })
         }
+
         let hash_password = await bcrypt.hash(randomString, parseInt(process.env.SALT_ROUNDS));
         user.otp = hash_password;
         await user.save();
@@ -147,7 +150,9 @@ const forgotpassword = async(req,res) =>{
 
         return res.json({
             status:true,
-            msg: 'Mail sent to your mail address'
+            msg: 'Mail sent to your mail address',
+            otp:randomString,
+            token:token
         })
 
     } catch (error) {
@@ -162,17 +167,20 @@ const forgotpassword = async(req,res) =>{
 
 const updatepassword = async(req,res) => {
     try {
-        const { email, updated_password, otp } = req.body;
+        const { updated_password, otp } = req.body;
+        const { token } = req.params;
 
-        if(!email || !updated_password || !otp){
-            logger.error(`Status Code: ${400} - Please provide all the details. - ${req.originalUrl} - ${req.method} - ${req.ip}`);
-            return res.status(400).json({
-                status:false,
-                msg:'Please provide all details'
-            });
-        }
+        // if( !updated_password || !otp ){
+        //     logger.error(`Status Code: ${400} - Please provide all the details. - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+        //     return res.status(400).json({
+        //         status:false,
+        //         msg:'Please provide all details'
+        //     });
+        // }
 
-        const user = await userModel.findOne({email:email});
+        let user = jwt.verify(token, process.env.SECRET_KEY);
+
+        user = await userModel.findOne({email: user.email});
 
         if(!user){
             logger.error(`Status Code: ${404} - User not found - ${req.originalUrl} - ${req.method} - ${req.ip}`);
